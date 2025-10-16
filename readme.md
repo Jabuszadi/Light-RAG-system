@@ -69,7 +69,7 @@ W pliku `config.py` możesz dostosować:
 - `LLM_MODELS_TO_TEST`: Listę modeli LLM do przetestowania w ewaluacji.
 - `GROUND_TRUTH_DATA`: Zbiór danych referencyjnych (pytanie, poprawna odpowiedź, konteksty) do ewaluacji.
 
-## Przetestowane modele emmeddingowe:
+## Przetestowane modele embeddingowe:
 - Qwen/Qwen3-Embedding-4B
 - infly/inf-retriever-v1-1.5b
 - sentence-transformers/all-MiniLM-L6-v2
