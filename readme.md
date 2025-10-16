@@ -70,11 +70,11 @@ W pliku `config.py` możesz dostosować:
 - `GROUND_TRUTH_DATA`: Zbiór danych referencyjnych (pytanie, poprawna odpowiedź, konteksty) do ewaluacji.
 
 ## Przetestowane modele emmeddingowe:
-Qwen/Qwen3-Embedding-4B
-infly/inf-retriever-v1-1.5b
-sentence-transformers/all-MiniLM-L6-v2
-sentence-transformers/paraphrase-multilingual-mpnet-base-v2
-sentence-transformers/all-roberta-large-v1
+- Qwen/Qwen3-Embedding-4B
+- infly/inf-retriever-v1-1.5b
+- sentence-transformers/all-MiniLM-L6-v2
+- sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+- sentence-transformers/all-roberta-large-v1
 
 ## Przetestowane modele LLM:
 - "gemma3:270m",
