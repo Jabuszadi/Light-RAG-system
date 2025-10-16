@@ -77,17 +77,17 @@ W pliku `config.py` możesz dostosować:
 - sentence-transformers/all-roberta-large-v1
 
 ## Przetestowane modele LLM:
-- "gemma3:270m",
-- "qwen3:0.6b",
-- "llama3.2:3b",
-- "deepseek-r1:7b",
-- "llama3.1:8b",
-- "antoniprzybylik/llama-pllum:8b",
-- "qwen3:8b",
-- "glm4:9b"
-- "mistral-small3.2",
-- "gpt-oss:20b",
-- "gemma3:27b"
+- gemma3:270m
+- qwen3:0.6b
+- llama3.2:3b
+- deepseek-r1:7b
+- llama3.1:8b
+- antoniprzybylik/llama-pllum:8b
+- qwen3:8b
+- glm4:9b
+- mistral-small3.2
+- gpt-oss:20b
+- gemma3:27b
 
 ## Obserwacje
 Po przeprowadzeniu wstępnych testów, większośc wyżej zaprezentowanych modeli nie spełniło oczekiwań albo 
