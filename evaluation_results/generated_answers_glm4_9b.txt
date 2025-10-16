@@ -1,0 +1,225 @@
+
+------ Kolekcja: qwen_embedding_collection (Qwen/Qwen3-Embedding-4B) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 14.97 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 2.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. **LLaMA 1 (7/13/65 B)** | 2. **LLaMA 2 (7/13/70 B)** | 3. **Code Llama (7/13/30/34 B)** | 4. **LLaMA 3 (8 B, 70 B)** | 5. **LLaMA 3.1 (8/70/405 B)** | 6. **LLaMA 3.2 (1/3 B tekstowe)** | 7. **LLaMA 3.2-Vision (11 B/90 B)** | 8. **LLaMA 4 Scout (17 B aktywnych, 16 ekspertów)** | 9. **LLaMA 4 Maverick (17 B aktywnych, 128 ekspertów)**
+Czas: 14.14 s | Liczba słów: 65
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: 0.19   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM (Polish Large Language Model) został stworzony przez konsorcjum polskich uczelni i instytutów, koordynowane przez Politechnikę Wrocławską. Wspierają go m.in. NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 11.82 s | Liczba słów: 36
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Model **GPT-3** jest najlepiej dopasowany do GPU z 24 GB VRAM. W kontekście modeli GPT, GPT-3 wymaga około 350 GB VRAM dla fp16/bfloat16 i jest dostępny wyłącznie w chmurze (źródło: [Modele GPT – szczegółowy przegląd dla RAG](file_path:C:\Users\G\Documents\GitHub\rag_project\docs\gpt.txt)). Chociaż to wymaga znacznie więcej pamięci niż 24 GB, model ten jest najbardziej zaawansowany i jego wymagania są bardziej restrykcyjne.
+
+2. Z kontekstu innych modeli:
+   - **LLaMA 3.1 (8/70/405 B)**: Model 8B wymaga około 16 GB VRAM w precyzji FP16, co jest blisko dopasowane do limitu 24 GB VRAM (źródło: [Rodzina modeli LLaMA – przegląd i wymagania sprzętowe](file_path:C:\Users\G\Documents\GitHub\rag_project\docs\llama.txt)).
+   - **LLaMA 2 (7/13/70 B)**: Modele 7B i 13B wymagają odpowiednio 6 GB VRAM w precyzji Q4, a model 70B 40 GB VRAM (źródło: [Rodzina modeli LLaMA – przegląd i wymagania sprzętowe](file_path:C:\Users\G\Documents\GitHub\rag_project\docs\llama.txt)).
+   - **Mixtral 8×22B**: Wersja bf16 wymaga około 263 GB VRAM, co jest znacznie więcej niż 24 GB (źródło: [Modele Mistral – kompendium](file_path:C:\Users\G\Documents\GitHub\rag_project\docs\mistal.txt)).
+
+Dlatego najbardziej odpowiednim modelem do GPU z 24 GB VRAM jest **LLaMA 3.1 8B**.
+Czas: 21.35 s | Liczba słów: 164
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 0.15   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 1. Aby odpalić najmniejszy model LLaMA, potrzebne jest około 2 GB VRAM. Model ten to **LLaMA 3 (8 B)**. Informacja o wymaganach sprzętowych znajduje się w dokumencie dotyczącym LLaMA 3.1:
+
+   "Model 405 B wymaga **810 GB VRAM** (FP16), **405 GB** (FP8) lub **203 GB** w INT4. Warto pamiętać, że okno 128 k tokenów powoduje dodatkowy narzut na pamięć – artykuł wskazuje, że przy 128 k tokenów model 70 B potrzebuje dodatkowych ~39 GB VRAM na **cache** kluczy i wartości. Jednak w kontekście najmniejszego modelu LLaMA 3 (8 B) nie ma wymienionych dodatkowych wymagań pamięci."
+
+   W dokumencie dotyczącym LLaMA 2 znajdziemy informacje na temat wymagań VRAM dla modeli 7 B i 13 B, ale nie są one najmniejszymi modelem LLaMA.
+Czas: 17.47 s | Liczba słów: 119
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+
+------ Kolekcja: infly_retriever_collection (infly/inf-retriever-v1-1.5b) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 10.43 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 0.50   Context Relevancy: 1.00   Correctness: 4.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: LLaMA oferuje następujące modele:
+
+1. **LLaMA 1**: Obejmuje warianty 7 B, 13 B i 65 B parametrów (s. [here](#)).
+
+2. **LLaMA 2**: Zawiera modele 7 B, 13 B i 70 B, które zostały wytrenowane na większym zbiorze danych i są licencjonowane na zasadach Llama Community License (s. [here](#)).
+
+3. **Code Llama**: Warianty to 7 B, 13 B, 30 B i 34 B parametrów (s. [here](#)).
+
+4. **LLaMA 3**: Dostępne modele to 8 B i 70 B (s. [here](#) oraz [here](#)).
+
+5. **LLaMA 3.1**: Modele obejmują 8 B, 70 B i 405 B (s. [here](#)).
+
+6. **LLaMA 3.2**: Obejmuje modele 1 B i 3 B tekstowe oraz warianty multimodalne Llama 3.2-Vision 11 B i 90 B (s. [here](#)).
+
+7. **LLaMA 4 Scout**: Modele mają 17 B aktywnych parametrów i 16 ekspertów, a ich całkowita liczba parametrów wynosi 109 B (s. [here](#)).
+
+8. **LLaMA 4 Maverick**: Modele mają 17 B aktywnych parametrów i 128 ekspertów, a ich całkowita liczba parametrów wynosi 400 B (s. [here](#)).
+Czas: 15.56 s | Liczba słów: 163
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, pod przewodnictwem Politechniki Wrocławskiej. Wspierane są przez m.in. NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 9.86 s | Liczba słów: 33
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 0.00   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Odpowiedź: LLaMA 3 (8 B) i Mistral Small 24B.
+2. Poparcie:
+   - Z kontekstu dotyczącego LLaMA 3: "LLaMA 3 (kwiecień 2024) [...] Model 8 B... do uruchomienia w chmurze potrzeba GPU z co najmniej 16 GB VRAM oraz 16 GB RAM" (file_path: C:\Users\G\Documents\GitHub\rag_project\docs\llama.txt).
+   - Z kontekstu dotyczącego Mistral Small 24B: "Poniższa tabela przedstawia najważniejsze otwarte modele Mistral... **Mistral Small 24B** (wersje 3/3.1/3.2) | 24 B | 32k–128k tokens | 60 GB | Apache 2.0 | szybkie modele do lokalnych asystentów, z obsługą funkcji i wizji" (file_path: C:\Users\G\Documents\GitHub\rag_project\docs\mistal.txt).
+Czas: 14.85 s | Liczba słów: 88
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 11.44 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 1.50   Correctness: 2.00
+
+
+------ Kolekcja: all_minilm_collection (sentence-transformers/all-MiniLM-L6-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 8.18 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 3.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: LLaMA 3 oferuje dwa główne modele: **8B** i **70B**. 
+
+* **Llama 3 (kwiecień 2024)**:
+    * **Model LLaMA 8B**: Wprowadzono nowy tokenizer i architekturę Grouped Query Attention (GQA), co poprawia przepływ kontekstu i obsługę dłuższych sekwencji. Wymaga GPU z co najmniej 16 GB VRAM oraz 16 GB RAM. 
+    * **Model LLaMA 70B**: W pełnej precyzji potrzebuje ponad 140 GB VRAM, a techniki kwantyzacji pozwalają uruchomić go na pojedynczym GPU RTX 4090 z 24 GB VRAM kosztem wydajności.
+
+模式 Mistral AI oferuje następujące modele:
+
+* **Modele open-source (Apache 2.0)**: W tym modele tekstowe, wielomodalne, matematyczne, kodowe i głosowe.
+* **Premier models**: Dostępne wyłącznie poprzez API, w tym różnorodne modele tekstowe, wielomodalne, matematyczne, kodowe i głosowe.
+
+Dokładna lista modeli Mistral AI nie jest podana w kontekście.
+Czas: 12.05 s | Liczba słów: 123
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM (Polish Large Language Model) został stworzony przez konsorcjum polskich uczelni i instytutów, koordynowane przez Politechnikę Wrocławską. Projekt wspierany jest przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 9.27 s | Liczba słów: 37
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: PLLuM-8B (base/instruct/chat) i PLLuM-12B (base/instruct/chat).
+
+W kontekście dostarczonym, dla modeli PLLuM-8B wymaga się około 4,7 GB VRAM przy kwantyzacji Q4_K_S, 4,9 GB przy Q4_K_M oraz 5,6 GB przy Q5_K_M. Dla modelu PLLuM-12B minimalne wymagania VRAM wynoszą 12 GB przy kontekście 16k. Oznacza to, że oba modele mogą działać na GPU z 24 GB VRAM.
+Czas: 10.71 s | Liczba słów: 54
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 0.75   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 16 GB VRAM; LLaMA 3 8B
+Czas: 7.98 s | Liczba słów: 6
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+
+------ Kolekcja: paraphrase_multilingual_collection (sentence-transformers/paraphrase-multilingual-mpnet-base-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 9.20 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 2.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: LLaMA oferuje następujące modele:
+
+1. **LLaMA 3** (kwiecień 2024):
+   - **8 B**: Wprowadzono Grouped Query Attention (GQA) oraz nowy tokenizer, co poprawia przepływ kontekstu i obsługę dłuższych sekwencji.
+   - **70 B**: Wymaga ponad 140 GB VRAM w pełnej precyzji, ale specjalne techniki kwantyzacji pozwalają uruchomić go na pojedynczym GPU RTX 4090 (24 GB) kosztem wydajności.
+
+2. **LLaMA 2** (lipiec 2023):
+   - **7 B**: W 4-bitowej kwantyzacji (GPTQ) wymaga ok. 6 GB VRAM.
+   - **13 B**: Wymaga 10 GB VRAM lub 8 GB RAM (GGML).
+   - **70 B**: Wymaga co najmniej 40 GB VRAM i 64 GB RAM przy użyciu CPU.
+
+Modele te są dostępne na licencji Llama Community License, która pozwala na komercyjne wykorzystanie pod pewnymi warunkami.
+Czas: 13.25 s | Liczba słów: 117
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: OpenAI i OPI wspólnie stworzyli PLLuM.
+Czas: 9.41 s | Liczba słów: 6
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: PLLuM 8B, LLaMA 3 (8 B), Mistral NeMo 12B. Wszystkie te modele wymagają mniej niż 24 GB VRAM do uruchomienia. PLLuM 8B i LLaMA 3 (8 B) wymagają około 16 GB VRAM, podczas gdy Mistral NeMo 12B wymaga 28 GB (bf16) lub 16 GB (fp8).
+Czas: 14.29 s | Liczba słów: 45
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 11.57 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 2.00
+
+
+------ Kolekcja: all_roberta_large_v1_collection (sentence-transformers/all-roberta-large-v1) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 7.00 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 0.50   Context Relevancy: N/A   Correctness: 2.50
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Modele LLaMa dostępne to między innymi:
+   - LLaMA 1 (pierwsza generacja, eksperymentalny model badawczy)
+   - LLaMA 3.2 (z lekkimi modelami 1 B i 3 B oraz wariantami multimodalnymi Llama 3.2-Vision 11 B i 90 B)
+   - LLaMA 3.1 (z podstawowymi wymaganiami sprzętowymi i licencją)
+   - Modele Vision (obsługujące zarówno tekst, jak i obraz)
+
+Te informacje są wyodrębnione z kontekstu takich wersetów jak:
+- "LLaMA (Large Language Model Meta AI) to rodzina dużych modeli językowych udostępnianych przez Meta. Pierwsza generacja (LLaMA 1) została wydana w 2023 roku jako eksperymentalny model badawczy, natomiast kolejne generacje stopniowo zwiększały liczbę parametrów..."
+- "Ta aktualizacja rozszerzyła rodzinę o lekkie modele 1 B i 3 B (tekstowe) oraz warianty multimodalne Llama 3.2-Vision 11 B i 90 B."
+- "* **Sprzęt** – artykuł Hugging Face podaje, że model 3 B wymaga około 6,5 GB VRAM w bf16/fp16, 3,2 GB w FP8 i 1,75 GB w INT4; model 1 B potrzebuje 2,5 GB (FP16), 1,25 GB (FP8) lub 0,75 GB (INT4)."
+- "Modele Vision obsługują tekst i obraz; potrafią rozpoznawać diagramy, tabele i proste elementy wizualne, generując tekstową odpowiedź."
+Czas: 11.89 s | Liczba słów: 182
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 3.50
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: Politechnika Wrocławska, NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 7.51 s | Liczba słów: 18
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 7.37 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 2.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź:
+10 GB VRAM, LLaMA 7B
+Czas: 8.05 s | Liczba słów: 6
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 0.12   Correctness: 3.00
+

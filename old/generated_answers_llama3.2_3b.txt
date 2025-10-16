@@ -1,0 +1,165 @@
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Oto odpowiedź na to pytanie: Sam Altman to CEO OpenAI, który stoi ustawie przewodzenia modeli GPT wraz z innymi ekspertami od AI.
+2. (Nie ma odpowiedzi w dostarczonych fragmentach.)
+Czas: 12.15 s | Liczba słów: 30
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Jestem asystentem AI, którego jedynym zadaniem jest odpowiadanie na pytania. Sam Altman to amerykański biznesmen i przedsiębiorca, który jest współzałożycielem OpenAI i prezesem tej firmie.
+Czas: 10.18 s | Liczba słów: 25
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Sam Altman jest prezesem i jednym z założycieli OpenAI.
+2. Informacja ta nie znajduje się w dostarczonych fragmentach dokumentów, więc odpowiedź to: "Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach."
+Czas: 276.79 s | Liczba słów: 36
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: Odpowiedź:
+1. Modeli dostępne w rodzinie LLaMA to: 
+- **LLaMA 2** (modele 7 B, 13 B i 70 B),
+- **Code Llama** (modele 7 B, 13 B oraz 30/34 B),
+- **LLaMA 3** (modele 8 B i 70 B),
+- **LLaMA 3.1** (modele 8 B, 70 B i 405 B),
+- **LLaMA 3.2** (modele 1 B tekstowe i multimodale 11 B i 90 B),
+- **LLaMA 4 Scout** (model 17 B aktywny / 109 B całkowity, MoE), 
+- **LLaMA 4 Maverick** (model 17 B aktywny / 400 B całkowity).
+
+Dalsze pytania.
+Czas: 48.47 s | Liczba słów: 91
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Odpowiedź: LLaMA 3.2 (7B, 13B i 70B) oraz LLaMA 4 (Scout 17B aktywnych / 109B całkowitych) są dostępne. 
+2. Odpowiedź: Modely 8B i 12B są bardziej przyjazne dla GPU klasy konsumenckiej, jednak wymagają znacznie większej pamięci RAM/VRAM do uruchomienia w porównaniu z modelami 70B.
+Czas: 10.90 s | Liczba słów: 45
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Odpowiedź na pytanie: Jakie modele LLaMA są dostępne?
+Dostępne modele LLaMA to: **Llama 3**, **LLaMA 4** oraz **Behemoth** z 288 B aktywnymi parametrami, a także warianty 8 B i 70 B.
+Czas: 8.28 s | Liczba słów: 32
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+
+Jednym z twórców modeli PLLuM jest Politechnika Wrocławska, która koordynuje projekty konsorcjum polskich uczelni i instytutów.
+Czas: 253.40 s | Liczba słów: 23
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+
+Oto odpowiedź na to pytanie. W oparciu o dostarczony fragment dokumentu PLLuM został zaprezentowany przez Ministerstwo Cyfryzacji, a Projekt wyróżnia się ogromnym korpusem treningowym, etycznym pozyskiwaniem danych i dużą liczbą instrukcji oraz danych preferencji.
+
+2. Odpowiedź na pytanie: Którzy uczelnie i instytuty wspierają PLLuM?
+
+W oparciu o dostarczony fragment dokumentu PLLuM jest projektem konsorcjum polskich uczelni i instytutów, koordynowanym przez Politechnikę Wrocławską i wspieranym m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 12.02 s | Liczba słów: 89
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+
+2. Nie ma konkretnych informacji o twórcy modelu PLLuM w dostarczonymi fragmentach dokumentu.
+Czas: 288.94 s | Liczba słów: 33
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Wariant 8×7B Mixtral jest najbardziej odpowiedni dla GPU z 24 GB VRAM, ponieważ wymaga tylko **60 GB** pamięci, w tym minimalnie 16 GB VRAM.
+Czas: 200.51 s | Liczba słów: 25
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 1. Odpowiedź na pytanie: Ile pamięci potrzeba, aby odpalić najmniejszy model LLM? Podaj ilość VRAM i podaj jego nazwę.
+   Model **LLaMA-3 (base)** wersji 8B wymaga ok. 16 GB VRAM.
+Czas: 271.62 s | Liczba słów: 29
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Jasne, chcę odpowiedzieć na to pytanie. W wyższej klasie edukacji uczy się się, że LLaMA 1 (stan na sierpień 2023 r.) został wydany jako eksperymentalny model badawczy. Pierwsza generacja LLaMA jest najsłabszym modelem w rodzinie. Wersja **LLaMA** **1** **(7/13/65 B)** wymaga 7 B parametrów aktywnych, 13 B parametrów całkowitych i 65 B gęstości parametrów, a minimalne wymagania pamięci to około **12–13 GB VRAM** w precyzji FP16.
+Czas: 31.91 s | Liczba słów: 66
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź na pytanie: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę. 
+
+Najmniejszym modelem LLM jest **LLaMA-1/7B**. Model ten wymaga w pełnej precyzji 4-bitowej kwantyzacji około **~6 GB** VRAM.
+Czas: 8.63 s | Liczba słów: 35
+

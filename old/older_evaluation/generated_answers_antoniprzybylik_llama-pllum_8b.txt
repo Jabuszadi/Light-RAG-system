@@ -1,0 +1,139 @@
+
+------ Kolekcja: qwen_embedding_collection (Qwen/Qwen3-Embedding-4B) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: Error executing plan: Internal error: Error creating hnsw segment reader: Nothing found on disk
+
+
+------ Kolekcja: infly_retriever_collection (infly/inf-retriever-v1-1.5b) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 54.86 s | Liczba słów: 13
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: Możliwe modele LLaMa to:
+* **LLaMA_1**, w tym jego trzy warianty: 7 B, 13 B i 65 B parametrów.
+* **LLaMa_2** - również dostępne są trzy wersje modelu: 7 B, 13 B oraz 70 B. 
+* **LLaMA_3** - modele o rozmiarach 8 B oraz 70 B. 
+* **LLaMA_3.1** - warianty 8 B, 70 B i 405 B. 
+* **LLaMa_3.2** - dostępne są dwa warianty modelu: 1 B oraz 3 B (wersje tekstowe) oraz modele multimodalne Llama_3.2-Vision o rozmiarach 11 B i 90 B.
+Czas: 109.14 s | Liczba słów: 83
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 49.42 s | Liczba słów: 13
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 48.23 s | Liczba słów: 13
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Najmniejszym modelem LLM jest Mistral Mini 3B, który wymaga 8 GB pamięci VRAM. Może być uruchomiony na karcie graficznej z 8 GB RAM.
+Czas: 56.47 s | Liczba słów: 23
+
+
+------ Kolekcja: all_minilm_collection (sentence-transformers/all-MiniLM-L6-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 37.63 s | Liczba słów: 13
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: Modele Llama dostępne to: Llama‑PLLuM‑8B (base/instruct/chat), PPLuM‑12B (base/instruct/chat) oraz PPLuM‑70B (base/instruct/chat).
+Czas: 45.34 s | Liczba słów: 11
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 38.22 s | Liczba słów: 13
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 44.39 s | Liczba słów: 13
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 37.40 s | Liczba słów: 13
+
+
+------ Kolekcja: paraphrase_multilingual_collection (sentence-transformers/paraphrase-multilingual-mpnet-base-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 47.43 s | Liczba słów: 13
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: W kontekście dostępnych modeli LLaMA, wersje **8B** i **70B** są dostępne jako modele o różnej wielkości parametrów. Ponadto, wersja **LLaMA 2** oferuje również opcje **7B**, **13B** oraz **70B**.
+Czas: 52.62 s | Liczba słów: 28
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 48.10 s | Liczba słów: 13
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: Mimo że w dostarczonym kontekście nie ma informacji na temat konkretnych modeli działających najlepiej na GPU z 24 GB VRAM, można znaleźć fragmenty sugerujące, które modele mogą działać dobrze na takim urządzeniu. Na przykład, w przypadku modelu PLLuM-12B, wymagania VRAM wynoszą około 12 GB dla kontekstu o długości 16 k tokenów, co może sugerować, że ten model mógłby działać na GPU z 24 GB VRAM. Jednakże, należy pamiętać, że to tylko przypuszczenie i nie ma gwarancji, że model PLLuM-12B będzie działać idealnie na każdym urządzeniu z 24 GB VRAM. 
+
+W innym fragmencie, w przypadku modelu Mistral 7B, wymagania VRAM wynoszą około 16 GB (pełna precyzja fp16) lub mniej przy kwantyzacji 4-bitowej, co może sugerować, że ten model również mógłby działać na GPU z 24 GB VRAM. 
+
+Ponadto, w kontekście modelu GPT-1, wymagania VRAM są stosunkowo niskie i wynoszą około 0,5 GB, co może sugerować, że ten model również mógłby działać na GPU z 24 GB VRAM. 
+
+Jednakże, należy pamiętać, że te informacje są tylko orientacyjne i nie gwarantują idealnego działania każdego modelu na każdym urządzeniu z 24 GB VRAM. Należy przeprowadzić testy na konkretnym urządzeniu i konfiguracji, aby potwierdzić, czy dany model będzie działał poprawnie.
+
+Odpowiedź jest więc następująca: PLLuM-12B, Mistral 7B lub GPT-1 są przykładami modeli, które mogłyby działać na GPU z 24 GB VRAM, ale nie ma gwarancji, że tak się stanie.
+Czas: 153.20 s | Liczba słów: 224
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 59.22 s | Liczba słów: 13
+
+
+------ Kolekcja: all_roberta_large_v1_collection (sentence-transformers/all-roberta-large-v1) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 42.33 s | Liczba słów: 13
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: Dostępne są następujące modele LLaMa:
+
+- Llama 3.2‑1B
+- Llama 3.2‑3B
+- Llama 3.2‑Vision 11B
+- Llama 3.2‑90B
+
+Wymagania VRAM dla tych modeli wyglądają następująco:
+
+- Llama 3.2‑1B: 2,5 GB (FP16), 1,25 GB (FP8) lub 0,75 GB (INT4)
+- Llama 3.2‑3B: około 6,5 GB VRAM w bf16/fp16, 3,2 GB w FP8 i 1,75 GB w INT4
+- Llama 3.2‑Vision 11B: około 10 GB VRAM przy 4‑bitowej kwantyzacji
+Czas: 65.83 s | Liczba słów: 67
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 38.63 s | Liczba słów: 13
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 41.88 s | Liczba słów: 13
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 35.67 s | Liczba słów: 13
+

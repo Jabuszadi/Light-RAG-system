@@ -1,0 +1,281 @@
+==================== Testy dla modelu LLM: qwen3:8b ====================
+
+
+==================== Pytanie: Kim jest Sam Altman? ====================
+
+  [DEBUG] Kolekcja: all_minilm_collection
+  [DEBUG] Odzyskane fragmenty (źródła):
+    --- Fragment 1 (score: 0.2198, z pliku: llama.txt) ---
+    # Rodzina modeli LLaMA – przegląd i wymagania sprzętowe (stan na sierpień 2025 r.)...
+--------------------------------------------------
+    --- Fragment 2 (score: 0.2114, z pliku: mistal.txt) ---
+    # Modele Mistral – kompendium (stan na sierpień 2025)...
+--------------------------------------------------
+    --- Fragment 3 (score: 0.2016, z pliku: pllum.txt) ---
+    # PLLuM – polski model językowy...
+--------------------------------------------------
+    --- Fragment 4 (score: 0.1983, z pliku: mistal.txt) ---
+    ## Opisy poszczególnych modeli...
+--------------------------------------------------
+    --- Fragment 5 (score: 0.1949, z pliku: mistal.txt) ---
+    ### Mistral Saba
+Mistral Saba to 24‑miliardowy model językowy zaprojektowany na potrzeby Bliskiego Wschodu i Azji Południowej. Artykuł z lutego 2025 r. opisuje go jako model szkolony na starannie dobranych danych arabskich i językach indyjskichhttps://mistral.ai/news/mistral-saba#:~:text=Mistral%20Saba%20is%20a%2024B,serve%20as%20a%20strong%20base.  Saba obsługuje języki takie jak arabski i tamil, zapewniając bardziej naturalne odpowiedzi niż modele kilkakrotnie większehttps://mistral.ai/news/mi...
+--------------------------------------------------
+
+  [DEBUG] Odpowiedź LLM (streaming): 
+
+--- Kolekcja: all_minilm_collection ---
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who Sam Altman is. First, I need to check the provided documents to see if there's any mention of him.
+
+Looking through the file paths and headers, there are documents about LLaMA models, Mistral, and PLLuM. The content snippets mention Mistral Saba, its specifications, applications, and hardware requirements. There's also info on PLLuM as a Polish language model. The LLaMA document talks about the family of models and hardware needs. 
+
+Wait, none of these documents mention Sam Altman. The names in the context are related to AI models and their developers, like Mistral AI and the LLaMA series. Sam Altman isn't referenced anywhere here. The user might be thinking of someone else, like the CEO of OpenAI, but that's not in the provided texts. Since there's no information on Sam Altman in the given fragments, I should respond that I can't find the answer in the documents.
+</think>
+
+Przepraszamy, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas przetwarzania: 11.31 sekund.
+
+
+==================== Pytanie: Jakie modele LLaMa są dostępne? ====================
+
+  [DEBUG] Kolekcja: all_minilm_collection
+  [DEBUG] Odzyskane fragmenty (źródła):
+    --- Fragment 1 (score: 0.4408, z pliku: llama.txt) ---
+    # Rodzina modeli LLaMA – przegląd i wymagania sprzętowe (stan na sierpień 2025 r.)...
+--------------------------------------------------
+    --- Fragment 2 (score: 0.3820, z pliku: llama.txt) ---
+    ## LLaMA 2 (lipiec 2023)
+
+LLaMA 2 wprowadziła komercyjnie dostępne modele **7 B**, **13 B** i **70 B**.  Modele zostały wytrenowane na dużo większym zbiorze danych i są licencjonowane na zasadach **Llama Community License**.  Licencja pozwala na komercyjne wykorzystanie, ale podmioty posiadające więcej niż 700 mln aktywnych użytkowników miesięcznie muszą uzyskać dodatkową zgodę Metyhttps://deepsense.ai/blog/llama-2-a-significant-milestone-in-the-world-of-ai/#:~:text=The%20Llama%202%20license%C2%...
+--------------------------------------------------
+    --- Fragment 3 (score: 0.3507, z pliku: llama.txt) ---
+    ## Wprowadzenie
+
+**LLaMA (Large Language Model Meta AI)** to rodzina dużych modeli językowych udostępnianych przez Meta.  Pierwsza generacja (LLaMA 1) została wydana w 2023 r. jako eksperymentalny model badawczy, natomiast kolejne generacje stopniowo zwiększały liczbę parametrów, okno kontekstowe i możliwości multimodalne.  Meta udostępnia wagi modeli na warunkach licencji **Llama Community License** – umożliwia ona niekomercyjne wykorzystanie i komercyjne wykorzystanie (z wyjątkami dla podmiotó...
+--------------------------------------------------
+    --- Fragment 4 (score: 0.3385, z pliku: llama.txt) ---
+    ## LLaMA 3.2 (wrzesień 2024)
+
+Ta aktualizacja rozszerzyła rodzinę o lekkie modele **1 B** i **3 B** (tekstowe) oraz warianty multimodalne **Llama 3.2‑Vision 11 B** i **90 B**.  Modele 1 B i 3 B nadal obsługują okna kontekstowe do 128 k tokenów i są trenowane na wielojęzycznym korpusie (angielski, niemiecki, francuski, włoski, portugalski, hindi, hiszpański, tajski)https://huggingface.co/blog/llama32#:~:text=What%20is%20special%20about%20Llama,2%201B%20and%203B.  
+
+* **Sprzęt** – artykuł Hugging ...
+--------------------------------------------------
+    --- Fragment 5 (score: 0.3318, z pliku: mistal.txt) ---
+    ### Mistral Embed
+Mistral Embed to model embeddingowy dla tekstu (8 k kontekstu) dostępny jako usługa API. Został zaprojektowany do generowania gęstych reprezentacji semantycznych dla RAG i wyszukiwania. Chociaż Mistral nie opublikował dedykowanego bloga, dokumentacja API opisuje model jako dostarczający wektory 1024‑elementowe; usługa jest wykorzystywana w platformach takich jak Pinecone, Zilliz czy LangChain....
+--------------------------------------------------
+
+  [DEBUG] Odpowiedź LLM (streaming): 
+
+--- Kolekcja: all_minilm_collection ---
+Odpowiedź: <think>
+Okay, let's tackle this question. The user is asking which LLaMA models are available. I need to look through the provided documents to find all mentioned models.
+
+First, in the LLaMA 2 section, they mention 7B, 13B, and 70B. Then in the LLaMA 3.2 section, there's 1B, 3B, and the Vision variants like 11B and 90B. Wait, the Vision models are part of LLaMA 3.2. Also, the original LLaMA 1 wasn't detailed here, but the user might be referring to the models mentioned in the documents. The answer should list all the models from the provided text. Let me check again: LLaMA 2 has 7B, 13B, 70B. LLaMA 3.2 adds 1B, 3B, and Vision 11B, 90B. So the available models are 1B, 3B, 7B, 13B, 70B, 11B, 90B. Wait, the 11B and 90B are Vision models under LLaMA 3.2. So the answer should include all these variants. Also, the user might need to know the exact numbers and their versions. Let me make sure I didn't miss any. The documents mention LLaMA 2's 7B, 13B, 70B; LLaMA 3.2's 1B, 3B, Vision 11B, 90B. That's all. So the answer should list each model with their respective versions and details if needed.
+</think>
+
+Na podstawie dostarczonych fragmentów dokumentów dostępne modele LLaMA to:
+
+1. **LLaMA 2**  
+   - **7B**, **13B**, **70B** – modele komercyjnie dostępne, licencjonowane na zasadach **Llama Community License**.  
+   - Wymagania sprzętowe:  
+     - **7B**: 6 GB VRAM (4-bitowa kwantyzacja GPTQ) lub 4 GB RAM + 300 MB VRAM (GGML/GGUF).  
+     - **13B**: 10 GB VRAM lub 8 GB RAM (GGML).  
+     - **70B**: 40 GB VRAM i 64 GB RAM (przy użyciu CPU).  
+
+2. **LLaMA 3.2**  
+   - **1B**, **3B** – modele tekstowe z oknem kontekstowym do 128 k tokenów, trenowane na wielojęzycznym korpusie.  
+   - **Llama 3.2-Vision 11B**, **Llama 3.2-Vision 90B** – wersje multimodalne obsługujące tekst i obraz (rozpoznawanie diagramów, tabel, elementów wizualnych).  
+   - Wymagania sprzętowe:  
+     - **3B**: 6,5 GB VRAM (bf16/fp16), 3,2 GB (FP8), 1,75 GB (INT4).  
+     - **1B**: 2,5 GB VRAM (FP16), 1,25 GB (FP8), 0,75 GB (INT4).  
+     - **Vision 11B**: ~10 GB VRAM (4-bitowa kwantyzacja).  
+
+3. **LLaMA 1**  
+   - W dokumencie nie są wymienione konkretne wersje liczbowe, ale jako pierwsza generacja LLaMA była eksperymentalna i dostępna na warunkach licencji Llama Community License.  
+
+**Uwagi licencyjne**:  
+- Modele 3.2 i 4 zawierają ograniczenia dotyczące przetwarzania obrazu w Unii Europejskiej (np. wersje Vision nie dostępne dla użytkowników z siedzibą w UE, chyba że są one zintegrowane w aplikacjach).  
+- Wszystkie modele są objęte **Llama Community License**, która umożliwia komercyjne wykorzystanie, ale wymaga umieszczenia wzmianki „Built with Llama” i zakazu trenowania konkurencyjnych LLM-ów.  
+
+Dokumenty nie wskazują na dostępność innych wersji LLaMA poza wymienionymi.
+Czas przetwarzania: 12.89 sekund.
+
+
+==================== Pytanie: Kto stworzył PLLuM? ====================
+
+  [DEBUG] Kolekcja: all_minilm_collection
+  [DEBUG] Odzyskane fragmenty (źródła):
+    --- Fragment 1 (score: 0.4064, z pliku: pllum.txt) ---
+    ## Tło i motywacja
+
+PLLuM (Polish Large Language Model) jest projektem konsorcjum polskich uczelni i instytutów, koordynowanym przez Politechnikę Wrocławską i wspieranym m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PANhttps://primotly.com/article/pllum-polish-large-language-model-artificial-intelligence#:~:text=PLLuM%20was%20officially%20presented%20on,linguistic%20accuracy%20and%20thematic%20diversity. ...
+--------------------------------------------------
+    --- Fragment 2 (score: 0.3447, z pliku: pllum.txt) ---
+    # PLLuM – polski model językowy...
+--------------------------------------------------
+    --- Fragment 3 (score: 0.3427, z pliku: pllum.txt) ---
+    ## Podsumowanie
+
+PLLuM to wszechstronna rodzina polskich modeli językowych, obejmująca warianty 8B, 12B, 70B oraz 8×7B, zbudowane na otwartych modelach Llama 3.1, Mistral Nemo oraz Mixtral. Projekt wyróżnia się ogromnym korpusem treningowym, etycznym pozyskiwaniem danych i dużą liczbą instrukcji oraz danych preferencji, co przekłada się na wysoką jakość generowanych odpowiedzi i możliwość adaptacji do zadań publicznych i komercyjnychhttps://huggingface.co/CYFRAGOVPL/PLLuM-12B-instruct#:~:text=,c...
+--------------------------------------------------
+    --- Fragment 4 (score: 0.3337, z pliku: pllum.txt) ---
+    ## Zbiory danych i fine‑tuning
+
+- **Korpus treningowy** – do budowy PLLuM zebrano wysokiej jakości dane tekstowe w języku polskim (~150 miliardów tokenów) oraz teksty w językach słowiańskich, bałtyckich i angielskim. Ze względów prawnych modele open‑source są trenowane na ok. 28 miliardach tokenów dostępnych komercyjniehttps://huggingface.co/CYFRAGOVPL/PLLuM-12B-instruct#:~:text=,compliance%20with%20relevant%20legal%20regulations.  
+- **Instrukcje „organiczne”** – stworzono największy polski zes...
+--------------------------------------------------
+    --- Fragment 5 (score: 0.3329, z pliku: pllum.txt) ---
+    ## Zastosowania
+
+PLLuM jest zaprojektowany jako podstawowa warstwa dla wielu zastosowań w języku polskim:
+
+- **Generacja i analiza tekstu** – podstawowe zadania generacji, streszczania, tłumaczenia i analizy sentymentu; modele 8B i 12B zapewniają szybkie odpowiedzi, a 70B oferuje najwyższą jakość i kontekst do długich dokumentów.
+- **Asystenci dla administracji publicznej** – specjalne modele RAG potrafią odpowiadać na pytania dotyczące procedur administracyjnych czy ustaw, korzystając z dedykow...
+--------------------------------------------------
+
+  [DEBUG] Odpowiedź LLM (streaming): 
+
+--- Kolekcja: all_minilm_collection ---
+Odpowiedź: <think>
+Okay, let's tackle this question. The user is asking who created PLLuM. I need to look through the provided documents to find the answer.
+
+First, I'll check the "Tło i motywacja" section. The text mentions that PLLuM is a project of a consortium of Polish universities and institutes, coordinated by Wrocław University of Technology and supported by NASK PIB, Institute of Fundamental Informatics PAN, Ośrodek Przetwarzania Informacji PIB, University of Łódź, and Institute of Slavistics PAN. That's a list of institutions involved, but does it mention specific creators? The text says "konsorcjum polskich uczelni i instytutów" which translates to a consortium of Polish universities and institutes. The coordinating institution is Wrocław University of Technology, but the question is about who created it. The consortium is the creator, so the answer would include those institutions.
+
+Looking at the "Podsumowanie" section, it states that the model was developed by a consortium of Polish institutions, including the mentioned ones. Also, in the "Zastosowania" part, there's a mention of the Polish language model being co-developed by OPI PIB, which is part of the consortium. 
+
+So, the answer should list the consortium members: Wrocław University of Technology, NASK PIB, Institute of Fundamental Informatics PAN, Ośrodek Przetwarzania Informacji PIB, University of Łódź, and Institute of Slavistics PAN. The documents don't mention specific individuals, just the institutions. Therefore, the creators are these organizations.
+</think>
+
+PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, koordynowanego przez Politechnikę Wrocławską. Współtwórcami są m.in. NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN. Informacja ta jest zawarta w sekcji „Tło i motywacja” dokumentu, gdzie podano, że projekt jest „projektem konsorcjum polskich uczelni i instytutów, koordynowanym przez Politechnikę Wrocławską i wspieranym m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN...”.
+Czas przetwarzania: 6.64 sekund.
+
+
+==================== Pytanie: Jaki model najlepiej działa na GPU z 24 GB VRAM? ====================
+
+  [DEBUG] Kolekcja: all_minilm_collection
+  [DEBUG] Odzyskane fragmenty (źródła):
+    --- Fragment 1 (score: 0.5050, z pliku: llama.txt) ---
+    ## Podsumowanie tabelaryczne
+
+| Generacja / model | Parametry (aktywnych / całkowitych) | Maks. okno kontekstowe | Minimalne wymagania pamięci (VRAM/RAM – przy kwantyzacji) | Licencja | Przykładowe zastosowania |
+|---|---|---|---|---|---|
+| **LLaMA 1 (7/13/65 B)** | 7 B, 13 B, 65 B gęste | ok. 2 k tokenów | 7 B: ~12–13 GB VRAM (FP16), 3–6 GB VRAM (4‑bit); 13 B: ~24 GB VRAM; 65 B: >130 GB VRAMhttps://www.bacloud.com/en/blog/163/guide-to-gpu-requirements-for-running-ai-models.html#:~:text=LLaMA%20...
+--------------------------------------------------
+    --- Fragment 2 (score: 0.4779, z pliku: llama.txt) ---
+    ## LLaMA 1 (2023)
+
+LLaMA 1 była pierwszą publicznie dostępną rodziną modeli Mety.  Obejmuje warianty **7 B**, **13 B** i **65 B** parametrów.  Modele te obsługują kontekst ok. 2 k tokenów i były udostępnione wyłącznie na zasadach badawczych.  
+
+* **Liczba parametrów i sprzęt** – wariant 7 B w precyzji FP16 wymaga ok. 12–13 GB pamięci VRAM, natomiast wersje z kwantyzacją (np. 8‑bit lub 4‑bit) można uruchomić na kartach z 6 GB VRAMhttps://www.bacloud.com/en/blog/163/guide-to-gpu-requirements-for-r...
+--------------------------------------------------
+    --- Fragment 3 (score: 0.4763, z pliku: mistal.txt) ---
+    ### Mistral 7B
+Pierwszy model Mistral AI z września 2023 r.; 7.3 mld parametrów, kontekst 8k. Dostępny w wersji podstawowej i „instruct”. Publikacja w licencji Apache 2.0 umożliwia lokalne uruchomienie. Artykuły sprzętowe zalecają co najmniej 12‑rdzeniowy procesor oraz kartę GPU z ≥12 GB VRAM; dzięki kwantyzacji 4‑bitowej model można uruchomić nawet na karcie z 4 GB VRAMhttps://www.oneclickitsolution.com/centerofexcellence/aiml/run-mistral-7b-locally-hardware-software-specs#:~:text=Here%E2%80%99...
+--------------------------------------------------
+    --- Fragment 4 (score: 0.4261, z pliku: llama.txt) ---
+    ### Code Llama (sierpień 2023)
+
+Code Llama to wariant LLaMA 2 specjalizujący się w generacji kodu i obsłudze zadań programistycznych.  Modele są dostępne w rozmiarach 7 B, 13 B oraz 30/33/34 B i działają z długim kontekstem (do 100 k tokenów).  
+
+* **Sprzęt** – modele 7 B i 13 B w 4‑bitowej kwantyzacji wymagają odpowiednio **~6 GB** i **~10 GB VRAM**, natomiast warianty ~30 B/34 B potrzebują **ok. 20 GB VRAM**https://www.hardware-corner.net/llm-database/CodeLlama/#:~:text=Hardware%20requirements...
+--------------------------------------------------
+    --- Fragment 5 (score: 0.4196, z pliku: mistal.txt) ---
+    ## Tabela 1 – skrócone parametry i wymagania VRAM
+Poniższa tabela przedstawia najważniejsze otwarte modele Mistral wraz z liczbą parametrów, długością kontekstu, minimalnym wymogiem pamięci GPU (VRAM) do inferencji zgodnie z oficjalną tabelą rozmiarówhttps://docs.mistral.ai/getting-started/models/weights/#:~:text=Name%20Number%20of%20parameters%20Number,Mini%203B%203B%208, typem licencji i przykładowymi zastosowaniami.  Wymagania VRAM dotyczą pełnej precyzji (bf16/fp16); wersje skwantyzowane mog...
+--------------------------------------------------
+
+  [DEBUG] Odpowiedź LLM (streaming): 
+
+--- Kolekcja: all_minilm_collection ---
+Odpowiedź: <think>
+Okay, let's tackle this question. The user wants to know which model works best on a GPU with 24 GB VRAM. I need to look through the provided documents to find models that fit within 24 GB VRAM.
+
+First, I'll check the LLaMA series. The LLaMA 3.2 has a 3B variant that requires 2.5 GB VRAM in FP16, 1.25 GB in FP8, and 0.75 GB in INT4. That's way under 24 GB. But the 70B version needs 140 GB VRAM, which is way over. The LLaMA 3.1 70B also needs 140 GB. The LLaMA 3.1 8B requires 16 GB VRAM in FP16, which is under 24. So that's a candidate.
+
+Looking at Mistral models, the Mistral 7B needs 16 GB VRAM in FP16. The Mixtral 8x7B requires 100 GB, which is too much. The Codestral 22B needs 60 GB. The Mistral Small 24B is listed with 60 GB VRAM, which is over 24. The Ministrals like the 8B and 3B have 24 GB and 8 GB requirements. Wait, the Mistral 8B (Ministral 8B) requires 24 GB VRAM in FP16. That's exactly matching the 24 GB. Also, the Mistral 3B needs 8 GB, which is under. 
+
+But the user is asking for the best model for 24 GB. The Mistral 8B (Ministral 8B) is exactly at 24 GB, and the LLaMA 3.1 8B is at 16 GB. The Mistral 8B might be a better fit because it's designed for low latency and on-device use, which could be more efficient. Also, the Mistral 7B requires 16 GB, which is under 24, but the 8B is closer to the limit. The LLaMA 3.1 8B is also under, but Mistral's 8B is specifically designed for that VRAM. 
+
+Another option is the Mistral Large 2 (123B) which needs 250 GB, which is too much. The Pixtral Large needs 250 GB as well. So the best candidates are Mistral 8B (24 GB) and LLaMA 3.1 8B (16 GB). But since the user has exactly 24 GB, the Mistral 8B is the one that uses the full capacity, making it a better fit. Also, the Mistral 8B is noted for low latency and on-device use, which could be optimal for that VRAM. 
+
+So the answer should include Mistral 8B and LLaMA 3.1 8B, but the Mistral 8B is the one that exactly matches the 24 GB VRAM requirement. The user might prefer the Mistral 8B as it's the closest to the VRAM limit and designed for that use case.
+</think>
+
+Odpowiedź:  
+
+Na GPU z 24 GB VRAM najlepiej działa **Mistral 8B (Ministral 8B)**, który wymaga **24 GB VRAM w trybie FP16** (patrz tabela Mistral: "Ministral 8B | 24 GB VRAM"). Dodatkowo, **LLaMA 3.1 8B** (16 GB VRAM w FP16) oraz **LLaMA 3.2 3B** (1,25 GB VRAM w FP8) również działają w granicach dostępnej pamięci, ale nie wykorzystują pełnej pojemności.  
+
+**Dlaczego Mistral 8B jest optymalny:**  
+1. Wymaga dokładnie 24 GB VRAM (FP16), co odpowiada dokładnie pojemności GPU.  
+2. Jest zaprojektowany do niskolatencyjnych zastosowań on-device (np. asystentów), co pozwala skutecznie wykorzystać dostępne zasoby.  
+3. W porównaniu do LLaMA 3.1 8B (16 GB VRAM), Mistral 8B oferuje lepsze wyniki w zastosowaniach wymagających większej mocy obliczeniowej (np. RAG, długie konteksty).  
+
+Inne modele, takie jak **LLaMA 3.1 8B** (16 GB VRAM) lub **Mistral 7B** (16 GB VRAM), również działają, ale nie wykorzystują pełnej pojemności 24 GB VRAM.
+Czas przetwarzania: 16.89 sekund.
+
+
+==================== Pytanie: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę ====================
+
+  [DEBUG] Kolekcja: all_minilm_collection
+  [DEBUG] Odzyskane fragmenty (źródła):
+    --- Fragment 1 (score: 0.4548, z pliku: llama.txt) ---
+    ## Wnioski i rekomendacje
+
+1. **Wybór modelu a dostępne zasoby** – mniejsze modele LLaMA (1 B–8 B) można uruchomić na pojedynczej karcie graficznej z 16 GB VRAM lub nawet na CPU z odpowiednią ilością RAM.  Modele 70 B i większe wymagają środowisk z wieloma GPU i setkami gigabajtów pamięci.  Dla zastosowań RAG w małych firmach rekomendowane są modele 8 B (LLaMA 3) lub 3 B (LLaMA 3.2), które zapewniają dobrą jakość i niskie opóźnienia.
+2. **Licencja i obostrzenia** – mimo otwartych wag LLaMA nie j...
+--------------------------------------------------
+    --- Fragment 2 (score: 0.4405, z pliku: pllum.txt) ---
+    ## Dostępne modele PLLuM
+
+Tabela poniżej podsumowuje najważniejsze warianty PLLuM wraz z liczbą parametrów, kontekstem, bazą i licencją oraz przybliżonym zapotrzebowaniem na pamięć (VRAM/RAM) przy wnioskowaniu. Wymagania VRAM przyjęto na podstawie rozmiarów plików GGUF (które z grubsza odpowiadają pamięci potrzebnej do załadowania modelu) oraz znanych wymagań modeli bazowych (Llama 3.1, Mistral Nemo, Mixtral 8×7B). W przypadku pełnej precyzji (bf16/fp16) wymagane jest znacznie więcej pamięci – t...
+--------------------------------------------------
+    --- Fragment 3 (score: 0.4325, z pliku: pllum.txt) ---
+    ## Podsumowanie
+
+PLLuM to wszechstronna rodzina polskich modeli językowych, obejmująca warianty 8B, 12B, 70B oraz 8×7B, zbudowane na otwartych modelach Llama 3.1, Mistral Nemo oraz Mixtral. Projekt wyróżnia się ogromnym korpusem treningowym, etycznym pozyskiwaniem danych i dużą liczbą instrukcji oraz danych preferencji, co przekłada się na wysoką jakość generowanych odpowiedzi i możliwość adaptacji do zadań publicznych i komercyjnychhttps://huggingface.co/CYFRAGOVPL/PLLuM-12B-instruct#:~:text=,c...
+--------------------------------------------------
+    --- Fragment 4 (score: 0.4270, z pliku: llama.txt) ---
+    ## LLaMA 3.2 (wrzesień 2024)
+
+Ta aktualizacja rozszerzyła rodzinę o lekkie modele **1 B** i **3 B** (tekstowe) oraz warianty multimodalne **Llama 3.2‑Vision 11 B** i **90 B**.  Modele 1 B i 3 B nadal obsługują okna kontekstowe do 128 k tokenów i są trenowane na wielojęzycznym korpusie (angielski, niemiecki, francuski, włoski, portugalski, hindi, hiszpański, tajski)https://huggingface.co/blog/llama32#:~:text=What%20is%20special%20about%20Llama,2%201B%20and%203B.  
+
+* **Sprzęt** – artykuł Hugging ...
+--------------------------------------------------
+    --- Fragment 5 (score: 0.4150, z pliku: llama.txt) ---
+    ## LLaMA 3 (kwiecień 2024)
+
+Trzecia generacja przyniosła znaczące ulepszenia: zwiększone konteksty, wysoki poziom dokładności, odświeżony tokenizer i bardziej zróżnicowany zbiór danych (7 bln tokenów).  Dostępne modele to **8 B** i **70 B**.  
+
+* **Architektura** – wprowadzono **Grouped Query Attention (GQA)** oraz nowy tokenizer, co poprawia przepływ kontekstu i obsługę dłuższych sekwencji.  
+* **Wymagania sprzętowe** – artykuł firmy Picovoice podaje, że model **Llama 3 70 B** w pełnej precyzji...
+--------------------------------------------------
+
+  [DEBUG] Odpowiedź LLM (streaming): 
+
+--- Kolekcja: all_minilm_collection ---
+Odpowiedź: <think>
+Okay, I need to figure out how much VRAM is required to run the smallest LLM based on the provided documents. Let me start by looking through the context given.
+
+First, the user is asking about the "najmniejszy model llm," which translates to the smallest LLM. The documents mention several models. Let me check each section.
+
+In the LLaMA 3.2 section, there's mention of 1B and 3B models. The text says the 1B model needs 2.5GB VRAM in FP16, 1.25GB in FP8, and 0.75GB in INT4. The 3B model requires around 6.5GB in FP16, 3.2GB in FP8, and 1.75GB in INT4. So the 1B model is smaller than the 3B.
+
+Then, looking at the PLLuM models, there's an 8B model, but that's larger than the 1B and 3B LLaMA models. The 70B and 8x7B models are even bigger. So the smallest among all mentioned models would be the LLaMA 3.2 1B model.
+
+Wait, but the user is asking about the smallest LLM in general. The LLaMA 3.2 1B is the smallest mentioned here. However, there's also the LLaMA 3.2 Vision 11B, but that's larger. The PLLuM models start at 8B, which is bigger than 1B. So the 1B model is the smallest.
+
+The VRAM required for the 1B model in the most efficient quantization (INT4) is 0.75GB. But the question might be asking for the minimal VRAM required, so the answer would be 0.75GB for the 1B model. However, the user might be referring to the smallest model in the context, which is the LLaMA 3.2 1B. Let me confirm if there's any other model smaller than 1B mentioned. The documents don't mention any models smaller than 1B, so the 1B is the smallest.
+
+Therefore, the answer should be that the smallest model is LLaMA 3.2 1B, requiring 0.75GB VRAM in INT4. But the user might want the answer in the context of the entire provided documents. Let me check again.
+
+Yes, the LLaMA 3.2 1B is the smallest mentioned, and the VRAM requirement is 0.75GB in INT4. So the answer is 0.75GB VRAM for the LLaMA 3.2 1B model.
+</think>
+
+Odpowiedź: Aby odpalić najmniejszy model LLM, potrzeba **0,75 GB VRAM** dla modelu **LLaMA 3.2 1B** w kwantyzacji INT4.  
+
+**Podstawy z dokumentów:**  
+- W sekcji **LLaMA 3.2 (wrzesień 2024)** podano, że model **1 B** wymaga **0,75 GB VRAM** w trybie **INT4** (patrz: "model 1 B potrzebuje 2,5 GB (FP16), 1,25 GB (FP8) lub 0,75 GB (INT4)").  
+- Brak w dokumentach informacji o modelach mniejszych niż 1 B (np. 0,5 B lub 0,7 B), więc **LLaMA 3.2 1 B** jest najmniejszym wymienionym modelem.
+Czas przetwarzania: 12.24 sekund.

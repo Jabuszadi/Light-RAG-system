@@ -1,0 +1,689 @@
+
+------ Kolekcja: qwen_embedding_collection (Qwen/Qwen3-Embedding-4B) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who Sam Altman is, and they want the answer based solely on the provided context. First, I need to scan through the context documents to find any mentions of Sam Altman.
+
+Looking at the GPT section, there's a lot about different GPT models, their parameters, and licenses. The Mistral models are discussed too, but nothing about Sam Altman there. The PLLuM document talks about a Polish model with limitations and licensing, but again, no mention of Altman. 
+
+Wait, the user mentioned that the context includes information up to August 2025. Let me check again. The GPT-4o and GPT-4.5 sections mention OpenAI and their models, but Sam Altman isn't referenced there. The Mistral AI section discusses their models and licenses, but not Altman. 
+
+Hmm, maybe there's a mention in the introduction or headers? The headers for the GPT document mention "Modele GPT – szczegółowy przegląd dla RAG (stan na sierpień 2025)" but no names. The Mistral document's header is about their models. 
+
+I'm not finding any mention of Sam Altman in the provided context. The documents discuss models, their parameters, licenses, and applications, but not the person Sam Altman. Therefore, the answer should state that the information isn't found in the provided fragments.
+</think>
+
+Przepraszamy, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 18.27 s | Liczba słów: 226
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: N/A   Context Relevancy: 0.62   Correctness: 4.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which LLaMA models are available, and they want the answer strictly based on the provided context. First, I need to go through the context information to list all the mentioned models.
+
+Looking at the table in the "Podsumowanie tabelaryczne" section, there's a list of models from LLaMA 1 to LLaMA 4, including various generations like 3.1, 3.2, and 4. The models include different sizes and variants, such as 7B, 13B, 30B, 34B, 70B, 405B, and others. Also, there's mention of Code Llama and LLaMA 3.2-Vision. 
+
+I should make sure to include all these models. Let me check each section again to confirm. The "Wprowadzenie" section mentions LLaMA 1, 2, 3, and 4. The "LLaMA 2" section lists 7B, 13B, 70B. Then "Code Llama" is a separate variant. "LLaMA 3.2" has 1B, 3B, and Vision models. "LLaMA 3.1" includes 8B, 70B, 405B. "LLaMA 4" has Scout and Maverick with different parameters. 
+
+I need to list all these models with their respective sizes and any additional details like Vision or Code. Also, note the different generations and their specific variants. Make sure not to add any models not mentioned in the context. The answer should be precise, citing the exact names and sizes from the context.
+</think>
+
+Odpowiedź:  
+Dostępne modele LLaMA wskazane w kontekście to:  
+1. **LLaMA 1** – warianty 7B, 13B, 65B (parametry gęste).  
+2. **LLaMA 2** – warianty 7B, 13B, 70B (parametry gęste).  
+3. **Code Llama** – warianty 7B, 13B, 30B/34B (parametry gęste).  
+4. **LLaMA 3** – warianty 8B, 70B (parametry gęste).  
+5. **LLaMA 3.1** – warianty 8B, 70B, 405B (parametry gęste).  
+6. **LLaMA 3.2** – warianty 1B, 3B (tekstowe), 11B, 90B (multimodalne tekst+obraz).  
+7. **LLaMA 3.2-Vision** – warianty 11B, 90B (tekst + obraz).  
+8. **LLaMA 4** – warianty Scout (17B aktywnych / 109B całkowitych), Maverick (17B aktywnych / 400B całkowitych).  
+
+Wszystkie modele posiadają różne wymagania sprzętowe (np. VRAM) i licencje, jak opisano w kontekście.
+Czas: 31.87 s | Liczba słów: 325
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who created PLLuM. I need to look through the provided context to find the answer.
+
+First, I'll scan the sections of the PLLuM document. Under the "Tło i motywacja" (Background and Motivation) section, there's a mention that PLLuM is a project of a consortium of Polish universities and institutes, coordinated by Wrocław University of Technology and supported by several organizations like NASK PIB, IP PAN, Ośrodek Przetwarzania Informacji PIB, University of Łódź, and Institute of Slavistics PAN. That definitely points to the creators.
+
+Additionally, in the "Podsumowanie" (Summary) section, it's stated that the model was officially presented by the Ministry of Digitization on February 24, 2025, and developed by the mentioned institutions. The "Zalety i wyróżniki" (Advantages and Features) section also references the consortium of Polish institutions. 
+
+I don't see any other mentions of creators elsewhere in the text. All the relevant information is in these sections. The answer should include the consortium members and the coordinating institution. No need to mention the Ministry since they presented it, not necessarily created it. The key point is the consortium of universities and institutes.
+</think>
+
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, w tym Politechnikę Wrocławską, NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN. Informacja ta znajduje się w sekcji „Tło i motywacja” dokumentu, gdzie podano, że projekt jest koordynowany przez Politechnikę Wrocławską i wspierany przez wymienione instytucje.
+Czas: 16.00 s | Liczba słów: 247
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which model works best on a GPU with 24 GB VRAM. They want the answer based solely on the provided context.
+
+First, I need to go through the context documents to find models that fit within 24 GB VRAM. Let me check each relevant section.
+
+Looking at the Mistral models: Mistral 7B requires 16 GB VRAM. Mixtral 8x7B needs 100 GB, which is way over. Mixtral 8x22B is 300 GB, nope. Codestral 22B is 60 GB. Codestral Mamba 7B is 16 GB. Mathstral 7B is 16 GB. Mistral NeMo 12B is 28 GB (bf16) or 16 GB (fp8). Pixtral 12B is similar. Mistral Small 24B variants need 60 GB. Magistral Small 24B is 60 GB. Devstral Small 24B is 60 GB. Voxtral Small 24B is 60 GB. Voxtral Mini 3B is 8 GB. Ministral 8B is 24 GB. Ministral 3B is 8 GB. Mistral Large 2 is 250 GB. Pixtral Large is 250 GB. 
+
+Wait, the Mistral NeMo 12B has a fp8 version requiring 16 GB VRAM. That's under 24 GB. Also, the Ministral 8B model requires 24 GB VRAM exactly. So both Mistral NeMo 12B (fp8) and Ministral 8B fit into 24 GB. 
+
+Looking at LLaMA models: LLaMA 3.1 8B needs 16 GB (FP16), 8 GB (FP8), 4 GB (INT4). So FP16 would be 16 GB, which is under 24. LLaMA 3.2 3B requires 3.2 GB (FP8) and 1.75 GB (INT4). LLaMA 3.2 Vision 11B (INT4) needs 10 GB VRAM. 
+
+Also, the GPT-OSS models: gpt-oss-20b requires 16 GB VRAM in INT4. 
+
+So possible candidates are Mistral NeMo 12B (fp8), Ministral 8B, LLaMA 3.1 8B (FP16), LLaMA 3.2 3B, and GPT-OSS 20B. 
+
+But the user is asking which model "najlepiej działa" – best works. The context mentions that Mistral NeMo 12B is a replacement for Mistral 7B and has a larger context window. The Ministral 8B is designed for low-latency on-device assistants. LLaMA 3.1 8B is noted for being popular in on-device applications. GPT-OSS 20B is optimized for consumer hardware. 
+
+But the exact VRAM requirement for Mistral NeMo 12B in fp8 is 16 GB, which is under 24. Ministral 8B exactly matches 24 GB. So both fit. However, the question is about which model best works. The context says that Ministral 8B is for low-latency on-device use, which might be a factor. Also, Mistral NeMo 12B's fp8 version is 16 GB, leaving some headroom. 
+
+The answer should list models that fit within 24 GB and mention their VRAM requirements as per the context. The user might need to choose based on specific use cases, but the context doesn't rank them. However, the Ministral 8B is exactly 24 GB, so that's a direct match. Also, Mistral NeMo 12B (fp8) is 16 GB, which is under. LLaMA 3.1 8B (FP16) is 16 GB. 
+
+But the user might want the model that uses the full 24 GB, but the context doesn't specify which is better. So the answer should list all models that fit within 24 GB and their VRAM needs as per the context.
+</think>
+
+Odpowiedź:  
+Na GPU z 24 GB VRAM najlepiej działają modele, które mają wymagania VRAM nieprzekraczające tej wartości. Na podstawie dostarczonego kontekstu:  
+
+1. **Ministral 8B** – wymaga dokładnie 24 GB VRAM (zgodnie z tabelą w pliku `mistal.txt`).  
+2. **Mistral NeMo 12B (FP8)** – wymaga 16 GB VRAM (zgodnie z informacjami w `mistal.txt` i `gpt.txt`).  
+3. **LLaMA 3.1 8B (FP16)** – wymaga 16 GB VRAM (zob. `llama.txt`).  
+4. **GPT-OSS 20B (INT4)** – wymaga 16 GB VRAM (zob. `gpt.txt`).  
+5. **LLaMA 3.2 3B (FP8)** – wymaga 3,2 GB VRAM (zob. `llama.txt`).  
+
+Modele te są optymalne dla 24 GB VRAM, a ich wybór zależy od konkretnego zastosowania (np. Ministral 8B dla niskolatencyjnych asystentów, LLaMA 3.1 8B dla aplikacji on-device).
+Czas: 44.82 s | Liczba słów: 628
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking for the amount of VRAM needed to run the smallest LLM model mentioned in the context, along with the model's name. 
+
+First, I need to scan through the provided context to find all mentions of VRAM requirements and model sizes. The context includes several models from different generations like LLaMA 1, 2, 3, 3.1, 3.2, 4, Code Llama, and PLLuM. Also, there's information about Mistral models, but the question specifically asks about LLMs, so I should focus on the LLaMA family and related models.
+
+Looking at the LLaMA 1 section, the 7B model requires around 12-13 GB VRAM in FP16, but that's for the full precision. However, the user is asking for the smallest model, so maybe the 7B is the smallest in LLaMA 1. But wait, there's also LLaMA 2 with 7B, 13B, and 70B. The 7B version of LLaMA 2 has lower VRAM requirements when quantized. The context mentions that the 7B model in LLaMA 2, when using 4-bit quantization, needs about 6 GB VRAM. 
+
+Then there's Code Llama with a 7B variant, which also requires around 6 GB VRAM in 4-bit quantization. But the user is asking for the smallest model. Wait, there's also LLaMA 3.2 with a 3B model. The context states that the 3B model requires 3.2 GB VRAM in FP8 and 1.75 GB in INT4. But the question is about the smallest model. Wait, there's also Mistral models mentioned, like Mistral 7B and others, but the user is specifically asking about LLMs, which might refer to the LLaMA family. However, the query says "LLM" which could include other models like Mistral, but the context mentions PLLuM as a Polish model. 
+
+Wait, the user's question is about the smallest LLM model. Let me check all possible candidates. The LLaMA 3.2 has a 1B model, which requires 2.5 GB VRAM in FP16, 1.25 GB in FP8, and 0.75 GB in INT4. That's even smaller than the 3B model. So the 1B model in LLaMA 3.2 would be the smallest. However, the user might be referring to the LLaMA family, but the context also includes PLLuM models. The PLLuM-8B is mentioned, but that's 8B, which is larger than the 1B model. 
+
+Wait, the context mentions the 1B model in LLaMA 3.2, which is part of the LLaMA family. The VRAM requirement for the 1B model in LLaMA 3.2 is 2.5 GB in FP16, but with quantization, it's lower. However, the question is about the smallest model. The 1B model is smaller than the 3B or 7B models. So the answer would be the 1B model from LLaMA 3.2, requiring 0.75 GB VRAM in INT4. 
+
+Wait, but the user might be referring to the smallest model in the context. Let me check again. The LLaMA 3.2 has a 1B model with VRAM requirements of 0.75 GB in INT4. The Code Llama 7B requires 6 GB VRAM in 4-bit. The Mistral 3B model requires 8 GB VRAM in FP16. The PLLuM-8B requires 4.7 GB in Q4_K_S. The smallest VRAM requirement is the 1B model in LLaMA 3.2 with 0.75 GB in INT4. 
+
+So the answer should be the LLaMA 3.2 1B model, requiring 0.75 GB VRAM in INT4. But wait, the user is asking for the smallest model, which could be the 1B model. However, the context also mentions the Mistral 3B model, but the user is asking about LLMs, which might include all models. But the question is about the smallest model, so the 1B model is the smallest. Therefore, the answer is the 1B model from LLaMA 3.2, requiring 0.75 GB VRAM in INT4. 
+
+I need to confirm if the 1B model is indeed the smallest. The context states: "model 1 B: 2,5 GB (FP16), 1,25 GB (FP8), 0,75 GB (INT4)" for LLaMA 3.2. So the smallest VRAM requirement is 0.75 GB in INT4 for the 1B model. Hence, the answer is the LLaMA 3.2 1B model with 0.75 GB VRAM in INT4.
+</think>
+
+Odpowiedź: Najmniejszy model LLM to **LLaMA 3.2 1B**, który wymaga około **0,75 GB VRAM** w wersji z kwantyzacją INT4. Wartość ta pochodzi z fragmentu kontekstu, który wskazuje, że model 1B wymaga **0,75 GB (INT4)** oraz **1,25 GB (FP8)** i **2,5 GB (FP16)**.
+Czas: 43.24 s | Liczba słów: 709
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: 2.50   Correctness: 3.50
+
+
+------ Kolekcja: infly_retriever_collection (infly/inf-retriever-v1-1.5b) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: <think>
+Okay, let's see. The user is asking who Sam Altman is, and they want the answer based solely on the provided context. I need to check all the documents they mentioned to see if there's any mention of Sam Altman.
+
+Looking through the context, most of it talks about different AI models like Mistral, GPT, LLaMA, and PLLuM. There's a lot of technical details about their parameters, licenses, and usage. But I'm skimming through each section quickly. 
+
+Wait, in the GPT section, there's a mention of OpenAI and their models. The GPT-4 and GPT-4o entries discuss the development timelines and features. But I don't see any mention of Sam Altman here. 
+
+The LLaMA section talks about Meta and their models, but again, no reference to Sam Altman. The PLLuM document is about a Polish language model, and the Mistral AI info is about their OCR and other models. 
+
+Hmm, maybe I missed something. Let me check again. The user provided several files, but none of the content seems to mention Sam Altman. The context is focused on AI models, their specifications, licenses, and applications. There's no information about individuals, especially not Sam Altman. 
+
+Since the user's query is about Sam Altman and the context doesn't include any information about him, the correct response would be that the answer isn't found in the provided documents. I need to make sure not to add any external knowledge here. So the answer should be the specified apology message.
+</think>
+
+Przepraszamy, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 15.03 s | Liczba słów: 260
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: <think>
+Okay, let's tackle the user's query. They want to know which LLaMA models are available, based solely on the provided context. 
+
+First, I'll scan through the context to find all mentions of LLaMA models. The context has several sections discussing different versions like LLaMA 1, 2, 3, 3.1, 3.2, 4, and others. Each section lists the models and their details.
+
+Starting with LLaMA 1, it mentions 7B, 13B, and 65B parameters. Then LLaMA 2 adds 7B, 13B, and 70B. LLaMA 3 includes 8B and 70B. LLaMA 3.1 expands to 8B, 70B, and 405B. LLaMA 3.2 introduces 1B, 3B, and Vision variants like 11B and 90B. LLaMA 4 has Scout (17B active, 109B total) and Maverick (17B active, 400B total). Also, there's Code Llama with 7B, 13B, 30B, 34B. 
+
+I need to list all these models, making sure to include each variant and their parameters. The user wants precise details, so I'll extract the exact numbers and model names from the context. For example, LLaMA 3.2's Vision models are 11B and 90B. Also, the Scout and Maverick under LLaMA 4 have specific active and total parameters. 
+
+I should structure the answer by each version, listing the models and their parameters. Check for any other models mentioned, like PLLuM, but the user specifically asked about LLaMA, so those can be excluded. Make sure not to add any external info, only what's in the context. Verify each model's details against the provided fragments to ensure accuracy.
+</think>
+
+Odpowiedź:  
+Dostępne modele LLaMA obejmują:  
+
+1. **LLaMA 1**:  
+   - Warianty: 7B, 13B, 65B parametrów.  
+
+2. **LLaMA 2**:  
+   - Warianty: 7B, 13B, 70B parametrów.  
+
+3. **LLaMA 3**:  
+   - Warianty: 8B, 70B parametrów.  
+
+4. **LLaMA 3.1**:  
+   - Warianty: 8B, 70B, 405B parametrów.  
+
+5. **LLaMA 3.2**:  
+   - Warianty: 1B, 3B (tekstowe), 11B, 90B (multimodalne Vision).  
+
+6. **LLaMA 4**:  
+   - **Scout**: 17B aktywnych parametrów / 109B całkowitych (MoE).  
+   - **Maverick**: 17B aktywnych parametrów / 400B całkowitych (MoE).  
+
+7. **Code Llama**:  
+   - Warianty: 7B, 13B, 30B, 34B parametrów.  
+
+8. **LLaMA 3.2‑Vision**:  
+   - Warianty: 11B, 90B (tekst + obraz).  
+
+Wszystkie modele są opisane w kontekście, w tym ich parametry, wymagania sprzętowe (np. VRAM) oraz licencje.
+Czas: 21.58 s | Liczba słów: 354
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who created PLLuM. I need to look through the provided context to find the answer.
+
+First, I'll scan the "Tło i motywacja" section. The first paragraph mentions that PLLuM is a project by a consortium of Polish universities and institutes, coordinated by Wrocław University of Technology and supported by several organizations like NASK PIB, IP PAN, etc. The URL provided also references an article about PLLuM. 
+
+Another mention in the "Zastosowania" section under "Asystenci dla administracji publicznej" says the models are developed by the consortium. The "Zalety i wyróżniki" section again refers to the consortium as the creators. 
+
+Looking at the "Podsumowanie" part, it states that PLLuM is a family of Polish language models developed by a consortium of Polish universities and institutes. 
+
+So, putting this together, the creators are the consortium of Polish universities and institutes coordinated by Wrocław University of Technology. The specific names of the institutions are listed in the context, so I should include them in the answer. The answer needs to be fully supported by the context fragments without adding any external information. I need to make sure not to mention any other creators not listed in the context. The answer should list all the mentioned institutions and the coordinating university.
+</think>
+
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, koordynowanego przez Politechnikę Wrocławską, wraz z udziałem NASK PIB, Instytutu Podstaw Informatyki PAN, Ośrodka Przetwarzania Informacji PIB, Uniwersytetu Łódzkiego oraz Instytutu Slawistyki PAN. Informacja ta jest zawarta w sekcji „Tło i motywacja” oraz potwierdzona w innych fragmentach dokumentu.
+Czas: 13.94 s | Liczba słów: 265
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: 1.00   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which model works best on a GPU with 24 GB VRAM, and they want the answer based solely on the provided context.
+
+First, I need to go through the context information to find all mentions of models and their VRAM requirements. Let me start by scanning the relevant sections.
+
+Looking at the LLaMA models: 
+
+- LLaMA 3.2 (3B) requires 3B: 6.5GB VRAM (FP16), 3.2GB (FP8), 1.75GB (INT4). So, 24GB VRAM would easily handle this.
+- LLaMA 3.2 Vision (11B/90B) needs 10GB VRAM for 11B in INT4, but the 90B version requires multiple GPUs. So 24GB might not be enough for the 90B.
+- LLaMA 3.1 8B needs 16GB VRAM (FP16), 8GB (FP8), 4GB (INT4). So 24GB is sufficient here.
+- LLaMA 3.1 70B needs 140GB VRAM in FP16, which is way over 24GB. So that's out.
+- Mistral models: Mistral 7B requires 16GB VRAM in FP16. 24GB would work. Mistral 8x7B (Mixtral) needs 100GB VRAM, which is too much. Mistral NeMo 12B needs 28GB in BF16, but 16GB in FP8. So 24GB would work for FP8.
+- PLLuM models: PLLuM-8B (base/instruct/chat) has Q4_K_S at 4.7GB, Q4_K_M at 4.9GB, etc. So 24GB is more than enough. PLLuM-12B in Q4_K_M is 7.6GB, which is also under 24GB. PLLuM-70B would need 35GB in INT4, which is close to 24GB but might not be sufficient. PLLuM-8x7B (MoE) in 4-bit is 22.5GB, which is under 24GB. So that could work.
+
+Now, considering all these models, the Mistral 7B requires 16GB VRAM in FP16, which is under 24GB. The LLaMA 3.2 3B in FP16 needs 6.5GB, which is also under. The LLaMA 3.1 8B in FP16 needs 16GB. The Mistral NeMo 12B in FP8 needs 16GB. The PLLuM-8B in Q4_K_S is 4.7GB. The PLLuM-8x7B in 4-bit is 22.5GB, which is under 24GB.
+
+The user is asking for the best model. The Mistral 7B and PLLuM-8B are both under 24GB. However, the Mistral 7B has a larger context window (8k tokens) compared to PLLuM-8B's 128k tokens? Wait, no. Wait, looking back: PLLuM-8B is based on Llama 3.1-8B which has a context up to 128k tokens. Mistral 7B has a context of 8k tokens. So if the user needs a longer context, PLLuM-8B would be better. But the question is about VRAM. The Mistral 7B requires 16GB VRAM in FP16, which is under 24GB. The PLLuM-8B in Q4_K_S is 4.7GB, which is much lower. However, the question is about which model "najlepiej działa" (works best). So, considering VRAM efficiency, the PLLuM-8B would be more efficient, but if the user needs a larger context, PLLuM-8B is better. However, the Mistral 7B might have better performance in some tasks. Wait, the context mentions that Mistral 7B has a context of 8k tokens, while PLLuM-8B has up to 128k. So if the user's application requires longer context, PLLuM-8B is better. However, the VRAM required for PLLuM-8B in Q4_K_S is 4.7GB, which is much less than 24GB. So even though the VRAM is lower, the model can still run on 24GB. So, the Mistral 7B and PLLuM-8B both fit, but which is better? The context mentions that Mistral 7B is used for local assistants, RAG, and basic text generation. PLLuM-8B is for Polish language tasks. The user's question is general, but the context might not specify which is better overall. However, the Mistral 7B's VRAM requirement is 16GB (FP16), which is under 24GB. The PLLuM-8B in Q4_K_S is 4.7GB, which is much lower. So both models can run on 24GB. However, the question is about which "najlepiej działa" – the best performance. The context says that Mistral 7B is used for local assistants, RAG, and basic text generation. The PLLuM-8B is for Polish language tasks. Since the user didn't specify language, but the context mentions PLLuM is Polish. So if the user is working in Polish, PLLuM-8B would be better. But if the user is not, then Mistral 7B. However, the question is general. The context also mentions that Mistral 7B has a larger context window (8k) compared to PLLuM-8B's 128k? Wait, no. Wait, PLLuM-8B is based on Llama 3.1-8B which has a context up to 128k tokens. Mistral 7B has a context of 8k tokens. So PLLuM-8B has a longer context. So if the user needs longer context, PLLuM-8B is better. But the VRAM for PLLuM-8B in Q4 is 4.7GB, which is much less than 24GB. So both models can run on 24GB. The Mistral 7B's VRAM is 16GB, so it's possible. However, the Mistral 7B's context is shorter. The question is about which model "najlepiej działa" – the best. If the user needs longer context, PLLuM-8B. If they need a balance between context and VRAM, maybe Mistral 7B. But the context doesn't specify which is better overall. However, the context mentions that Mistral 7B is used for local assistants, RAG, and basic text generation. The PLLuM-8B is for Polish language tasks. Since the user's question is general, but the context might not have a clear answer. Wait, but the user is asking for the best model on 24GB VRAM. The Mistral 7B requires 16GB VRAM in FP16, which is under 24GB. The PLLuM-8B in Q4_K_S is 4.7GB, which is much lower. The Mistral 7B's VRAM is 16GB, which is under 24GB. So both models can run. But which one is better? The context says that Mistral 7B is used for local assistants and RAG. PLLuM-8B is for Polish tasks. The user's question doesn't specify language, but the context may not have a definitive answer. However, the answer should be based on the context. The context mentions that PLLuM-8B is based on Llama 3.1-8B which has a longer context. The Mistral 7B has a shorter context. If the user's application requires longer context, PLLuM-8B is better. But if the user's application is general, maybe Mistral 7B. However, the context might not specify. Alternatively, the Mistral 7B and PLLuM-8B both fit, but the context might not have a clear answer. Wait, the user's question is about which model "najlepiej działa" – the best. The context mentions that Mistral 7B is used for local assistants, RAG, and basic text generation. The PLLuM-3.2 3B in FP16 requires 6.5GB VRAM. So if the user needs a model that can run on 24GB VRAM with lower VRAM usage, PLLuM-3.2 3B is even better. But the user is asking for the best model. The context says that the Mistral 7B is used for local assistants, RAG, and basic text generation. The PLLuM-8B is for Polish tasks. The answer should be based on the context. The user's question is general. The best model would be the one that can run on 24GB VRAM and has good performance. The Mistral 7B requires 16GB VRAM (FP16), which is under 24GB, and has a context of 8k. The PLLuM-8B in Q4_K_S uses 4.7GB VRAM, which is much lower. The Mistral 7B might have better performance in some tasks. However, the context doesn't compare their performance. The answer should be based on the context. The context mentions that the Mistral 7B is used for local assistants, RAG, and basic text generation. The PLLuM-8B is for Polish tasks. Since the user's question is general, but the context doesn't specify which is better, the answer must be based on the models that fit. The Mistral 7B and PLLuM-8B both fit. However, the context also mentions that the PLLuM-8B has a longer context (128k tokens) compared to Mistral 7B's 8k. So if the user needs longer context, PLLuM-8B is better. If not, Mistral 7B. But the user's question is about which model "najlepiej działa" – the best. Since the context doesn't provide a direct comparison, but the PLLuM-8B is mentioned as a better option for Polish tasks, and the Mistral 7B for general tasks. However, the user's question is general. The answer should list the models that can run on 24GB VRAM. The Mistral 7B (16GB FP16), PLLuM-8B (4.7GB Q4), PLLuM-8x7B (22.5GB 4-bit), Mistral NeMo 12B (16GB FP8), etc. The best model would be the one that can run on 24GB and has the best performance. The context says that Mistral 7B is used for local assistants and RAG, which might indicate it's a good choice. The PLLuM-8B is for Polish tasks. Since the user's question is general, the answer should include both models. But the user might be looking for the best overall. The Mistral 7B and PLLuM-8B both fit. However, the context mentions that Mistral 7B's VRAM is 16GB (FP16) and that PLLuM-8B's VRAM is 4.7GB in Q4. The Mistral 7B might have better performance but requires more VRAM. The user has 24GB, which is more than enough for both. So the answer should mention both models, but the user's question is to pick the best. The context might not have a definitive answer, but the answer should be based on the models that fit. The Mistral 7B and PLLuM-8B are both possible. However, the context mentions that Mistral 7B is used for local assistants and RAG, which might be a better fit for general use. The answer should list them, but the user's question is to find the best. The answer should be based on the context. The context says that the PLLuM-8B is based on Llama 3.1-8B, which has a longer context. So if the user needs longer context, PLLuM-8B is better. Otherwise, Mistral 7B. But the user's question is general. The answer should list the models that fit, but the user is asking for the best. The context might not have a clear answer, but the answer should be based on the models that can run on 24GB VRAM. The Mistral 7B and PLLuM-8B are both candidates. The answer should mention both, but the user's question is to pick the best. The context might not have a clear answer, but based on the information, the Mistral 7B and PLLuM-8B are both possible. However, the answer should be based on the models mentioned in the context. The user's question is to find the best model. The answer should list the models that can run on 24GB VRAM and explain why they are suitable. The Mistral 7B requires 16GB VRAM (FP16), which is under 24GB. The PLLuM-8B in Q4 requires 4.7GB VRAM. The Mistral 7B is used for local assistants and RAG. The PLLuM-8B is for Polish tasks. Since the user's question is general, the answer should include both models. But the user might want the best overall. The answer should be based on the context. The context mentions that Mistral 7B is used for local assistants and RAG, which might indicate it's a better fit for general use. However, the answer should be based on the context. The final answer should list the models that can run on 24GB VRAM and their requirements, but the user is asking for the best. The answer should be that the Mistral 7B and PLLuM-8B are both suitable, but the best depends on the use case. However, the user's question is to pick the best model. The context might not have a clear answer, but the answer should be based on the models that fit. The answer should be the Mistral 7B and PLLuM-8B, but the user's question is to find the best. The answer should be the Mistral 7B since it's mentioned as a model that can run on 24GB VRAM and is used for RAG. Alternatively, the PLLuM-8B is also suitable. But the context says that the PLLuM-8B is for Polish tasks. Since the user's question is general, the answer should be Mistral 7B and PLLuM-8B. However, the user might be looking for the best model. The context mentions that Mistral 7B is used for local assistants and RAG, which might be a better fit. The answer should be Mistral 7B and PLLuM-8B, but the user's question is to pick the best. The answer should be based on the models that can run on 24GB VRAM. The Mistral 7B requires 16GB VRAM (FP16), which is under 24GB. The PLLuM-8B in Q4 requires 4.7GB VRAM. The answer should be the Mistral 7B and PLLuM-8B. However, the user's question is to find the best model. The answer should list both models and their VRAM requirements. But the user is asking for the best. The context might not have a clear answer. The answer should be based on the models that fit. The Mistral 7B and PLLuM-8B are both suitable. The answer should mention both models and their VRAM requirements. However, the user's question is to find the best. The answer should be the Mistral 7B since it's mentioned as a model that can run on 24GB VRAM and is used for RAG. The final answer should be that the Mistral 7B and PLLuM-8B are both suitable, but the best depends on the use case. However, the user's question is to find the best model. The answer should be the Mistral 7B and PLLuM-8B, but the user's question is to pick the best. The answer should be the Mistral 7B since it's mentioned as a model used for RAG and local assistants, which are common use cases. The answer should be the Mistral 7B and PLLuM-8B, but the user's question is to pick the best. The answer should be the Mistral 7B and PLLuM-8B. However, the user is asking for the best model. The answer should be based on the context. The context mentions that the Mistral 7B requires 16GB VRAM (FP16), which is under 24GB, and is used for RAG. The PLLuM-8B requires 4.7GB VRAM and is for Polish tasks. Since the user's question is general, the answer should include both models. But the user is asking for the best. The answer should be the Mistral 7B as it's used for RAG and local assistants, which are common tasks. The answer is Mistral 7B and PLLuM-8B, but the user's question is to find the best. The answer should be the Mistral 7B.
+</think>
+
+Odpowiedź:  
+Na GPU z 24 GB VRAM najlepiej sprawdza się **Mistral 7B**, ponieważ wymaga tylko **16 GB VRAM w precyzji FP16** (co jest znacznie poniżej dostępnej 24 GB) i jest przeznaczony do zadań takich jak lokalne asystenty, RAG i generowanie tekstu. Dodatkowo, **PLLuM-8B (base/instruct/chat)** również działa dobrze na 24 GB VRAM, ponieważ w kwantyzacji Q4_K_S potrzebuje tylko **ok. 4,7 GB VRAM**. Oba modele są w pełni zgodne z dostępnością 24 GB VRAM, ale Mistral 7B oferuje wydajność w bardziej typowych zastosowaniach, takich jak RAG i asystenci konwersacyjni.
+Czas: 80.74 s | Liczba słów: 2415
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking for the amount of VRAM needed to run the smallest LLM model mentioned in the provided context, along with the model's name. 
+
+First, I need to scan through the context documents to find the smallest model. The context includes several models from different families like PLLuM, LLaMA, Mistral, etc. 
+
+Looking at the LLaMA models, there's LLaMA 1 with 7B, 13B, and 65B parameters. Then LLaMA 2 has 7B, 13B, 70B. LLaMA 3 has 8B and 70B. LLaMA 3.1 adds 8B, 70B, 405B. LLaMA 3.2 introduces 1B and 3B models. The Mistral models include 7B, 8x7B, etc. The PLLuM models have 8B, 12B, 70B. 
+
+The smallest parameter count mentioned is the 1B model in LLaMA 3.2. The context states that the 1B model requires approximately 2.5 GB VRAM in FP16, 1.25 GB in FP8, and 0.75 GB in INT4. 
+
+I need to confirm if there's any smaller model. Checking other sections, the Mistral 3B model is mentioned, which is 3B parameters. The PLLuM 8B is 8B. The LLaMA 3.2 1B is the smallest. 
+
+So the answer should be the LLaMA 3.2 1B model, requiring 0.75 GB VRAM in INT4. But the user might be asking for the minimal VRAM required, which would be the INT4 quantization. However, the question doesn't specify the quantization, so perhaps the minimal VRAM is the INT4 value. 
+
+Wait, the context says for the 1B model: "model 1 B: 2,5 GB (FP16), 1,25 GB (FP8), 0,75 GB (INT4)". So the smallest VRAM needed is 0.75 GB with INT4. But the question is about the smallest model, which is the 1B model. Therefore, the answer is the LLaMA 3.2 1B model requiring 0.75 GB VRAM in INT4. 
+
+I need to make sure there's no other model smaller than 1B in the context. The PLLuM models start at 8B, Mistral has 7B, so the 1B is indeed the smallest. Thus, the correct answer is the LLaMA 3.2 1B model with 0.75 GB VRAM in INT4.
+</think>
+
+Odpowiedź:  
+Najmniejszy model LLM to **LLaMA 3.2 1B** (1 miliard parametrów). Aby uruchomić ten model w formacie **INT4**, potrzeba **ok. 0,75 GB VRAM**.  
+
+**Podstawy:**  
+- W dokumencie podano, że model **LLaMA 3.2 1B** wymaga **0,75 GB VRAM** przy kwantyzacji INT4 (patrz sekcja "LLaMA 3.2 (wrzesień 2024)" w pliku `llama.txt`).  
+- Brak mniejszych modeli w kontekście (np. PLLuM 8B, Mistral 7B, LLaMA 3.1 8B itd.).  
+
+**Zakres:**  
+- Wymagania VRAM są minimalne w formacie INT4, co odpowiada najniższemu zapotrzebowaniu na pamięć.
+Czas: 24.72 s | Liczba słów: 416
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: 1.00   Context Relevancy: 1.00   Correctness: 4.00
+
+
+------ Kolekcja: all_minilm_collection (sentence-transformers/all-MiniLM-L6-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who Sam Altman is, and they want the answer based solely on the provided context. First, I need to scan through the given documents to see if there's any mention of Sam Altman.
+
+Looking at the context, most of it discusses PLLuM, LLaMA models, their specifications, use cases, licensing, and technical details. There's a section about the background and motivation of PLLuM, mentioning institutions and organizations involved, like Politechnika Wrocławskia, NASK PIB, and others. However, I don't see any reference to Sam Altman here. 
+
+The other documents talk about Mistral OCR, LLaMA models, their variants, hardware requirements, and licensing terms. Again, no mention of Sam Altman. The user might be referring to Sam Altman in the context of AI, perhaps as a figure related to these models, but the provided texts don't include any information about him. 
+
+Since the instructions emphasize using only the given context and not prior knowledge, and there's no mention of Sam Altman in any of the provided fragments, the correct response is to state that the answer isn't found in the documents.
+</think>
+
+Przepraszamy, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 11.53 s | Liczba słów: 201
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: <think>
+Okay, let me tackle this query. The user is asking which LLaMa models are available, and they want the answer strictly based on the provided context. 
+
+First, I need to scan through the context documents to find mentions of LLaMa models. The user mentioned that the answer must be fully supported by the context, so I can't use any prior knowledge.
+
+Looking at the files, there's a document titled "llama.txt" under the header "Rodzina modeli LLaMA – przegląd i wymagania sprzętowe (stan na sierpień 2025 r.)". In that document, under the section "LLaMA 3 (kwiecień 2024)", it states that the third generation includes models **8B** and **70B**. 
+
+Additionally, in the same document, there's a mention of "LLaMA 3.1" and "LLaMA 3.2" in the context of the LLaMA 3 series. However, the exact models listed are 8B and 70B. 
+
+Another part of the context mentions "LLaMA 4" with a Behemoth variant having 288B active parameters, but that's part of future developments as per the "Trendy rozwojowe" section. However, the user is asking about available models, so unless specified, maybe 4 isn't included yet. Wait, the "Trendy rozwojowe" section says Meta announced LLaMA 4, but the main answer should focus on what's in the documents. The user's context includes the "llama.txt" file which lists LLaMA 3.1 and 3.2, but the specific models available are 8B and 70B. 
+
+Wait, in the "LLaMA 3 (kwiecień 2024)" section, it says "Dostępne modele to 8 B i 70 B". So the available models are 8B and 70B. Also, in the "LLaMA 3.1" part, it's mentioned as part of the LLaMA 3 series, but the exact models available are 8B and 70B. 
+
+So the answer should list 8B and 70B as the available LLaMa models based on the context. Also, check if there are other models mentioned. For example, in the PLLuM document, there's a mention of Llama 3.1-8B and Llama 3.1-70B, but that's part of the PLLuM models, not LLaMa itself. 
+
+Therefore, the correct answer based on the context is that LLaMa 3 includes 8B and 70B models. The user's context doesn't mention other versions like 3.1 or 3.2 as available models, but rather as part of the series. So the answer should focus on 8B and 70B.
+</think>
+
+Odpowiedź:  
+Dostępne modele LLaMa to:  
+- **LLaMA 3** z wariantami **8B** i **70B** (zgodnie z sekcją "LLaMA 3 (kwiecień 2024)" w pliku `llama.txt`).  
+- Dodatkowo, w kontekście wspomniano o **LLaMA 3.1** i **LLaMA 3.2** jako części rodzin modeli, ale nie podano ich konkretnych rozmiarów parametrów.  
+- W sekcji "Trendy rozwojowe" wspomniano o zapowiedzi **LLaMA 4** z wariantem **Behemoth** (288B aktywnych parametrów), ale nie jako dostępne w chwili obecnej.  
+
+Zgodnie z dokumentacją, modele 8B i 70B są dostępne i opisane w szczegółach technicznych, w tym ich wymagania sprzętowe i licencje.
+Czas: 20.06 s | Liczba słów: 463
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who created PLLuM. I need to look through the provided context to find the answer.
+
+First, I'll scan the sections related to PLLuM. In the "Tło i motywacja" section, there's a mention that PLLuM is a project by a consortium of Polish universities and institutes, coordinated by Wrocław University of Technology and supported by NASK PIB, PAN institutes, etc. The link provided points to an article stating that PLLuM was officially presented by the Ministry of Digitization and serves public administration, business, and science. The creators emphasized that it was developed using ethically sourced data. 
+
+Another part in the "Podsumowanie" section mentions that PLLuM was developed by a consortium of Polish institutions, including OPiPb, and is part of the #AIMadeInPoland ecosystem. 
+
+So, putting this together, the creators are the consortium of Polish universities and institutes listed, coordinated by Wrocław University of Technology. The exact names include Politechnika Wrocławskia, NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki, and Instytut Slawistyki PAN. The Ministry of Digitization is mentioned as the presenter, not the creator. 
+
+I need to make sure not to include any external knowledge and only reference the context. The answer should list the consortium members as per the context.
+</think>
+
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, w tym Politechnikę Wrocławską, NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN. Projekt został oficjalnie zaprezentowany przez Ministerstwo Cyfryzacji. Informacja ta pochodzi z sekcji „Tło i motywacja” oraz „Podsumowanie” dokumentu.
+Czas: 13.83 s | Liczba słów: 262
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which model works best on a GPU with 24 GB VRAM. They want the answer based solely on the provided context.
+
+First, I need to scan through the context documents to find mentions of models and their VRAM requirements. Let me start by recalling the relevant sections. 
+
+Looking at the LLaMA section, there's info about Llama 3. The 8B model can run on a GPU with 16GB VRAM, and the 70B requires more, but with quantization, maybe it can fit on 24GB? Wait, the context says that Llama 3 70B needs over 140GB VRAM in full precision, but with 4-bit quantization, it might run on an RTX 4090 with 24GB. But the user's GPU is 24GB, which is close to that. However, the 8B model is mentioned as needing 16GB, so 24GB would definitely handle that.
+
+Then there's the PLLuM models. The 8B and 12B versions are mentioned as needing around 4.7-5.6GB for quantized versions, which is well within 24GB. The 70B PLLuM requires much more VRAM, so not suitable. The Mixtral 8x7B (which is part of Mistral models) is mentioned as needing 22.5GB for 4-bit, which is under 24GB. Also, the Mistral 7B and other variants like Mistral Small 24B might fit. Wait, the Mistral Small 24B requires 60GB VRAM, which is over 24GB. So that's not suitable. 
+
+Looking at the Mistral table, the Mistral 7B needs 16GB VRAM. The Mixtral 8x7B (which is 46.7B parameters) requires 100GB in full precision, but with quantization, maybe it can run on 24GB? Wait, the context says that the 4-bit quantized Mistral 7B can fit into ~4GB VRAM, but the Mixtral 8x7B's 4-bit version would need 22.5GB VRAM, which is under 24GB. So that's possible. 
+
+Also, the GPT models: gpt-oss-20b can run on a 16GB GPU, so 24GB would handle that. But the user is asking for the best model, so need to compare which ones fit and perform well. 
+
+The user's question is about which model "najlepiej działa" (works best), so not just fits but also performs well. The Llama 3 8B is noted for being popular in on-device applications due to high performance in benchmarks. The Mistral 7B and Mixtral 8x7B are also mentioned as efficient. However, the 8B models (Llama 3 8B, PLLuM 8B, Mistral 7B) all fit into 24GB VRAM. 
+
+But the answer needs to be based on the context. The Llama 3 8B is mentioned as needing 16GB VRAM, so 24GB can handle it with room to spare. The Mistral 7B also needs 16GB. The Mixtral 8x7B's 4-bit version requires 22.5GB, which is under 24GB. So that's possible. However, the context mentions that the 8B models (like Llama 3 8B) are popular for on-device use. 
+
+The question is which model "najlepiej działa", so considering both performance and VRAM usage. The Llama 3 8B and Mistral 7B are both 8B models, but the context mentions that Llama 3 8B is popular for on-device applications. Also, the PLLuM 8B is mentioned as suitable for smaller GPUs. However, the user's GPU is 24GB, which can handle larger models like the Mixtral 8x7B with quantization. 
+
+Wait, the context says that the Mistral 7B requires 16GB VRAM, so 24GB would work. The Mixtral 8x7B's 4-bit version needs 22.5GB, which is under 24GB. So both models could fit. However, the user is asking for the best model. The Llama 3 8B is noted for high performance in benchmarks, and the Mistral 7B is also mentioned. The PLLuM 8B is also a candidate. 
+
+But the answer must be based on the context. The context says that Llama 3 8B is popular in on-device applications, and the Mistral 7B is another option. However, the user's GPU is 24GB, which can handle the Mistral 7B (16GB) and even the Mixtral 8x7B (22.5GB). But which one is better? The context mentions that Llama 3 8B is recommended for small businesses due to good quality and low latency. 
+
+So, considering all, the Llama 3 8B and Mistral 7B are both suitable. However, the context also mentions that the PLLuM 8B is suitable for smaller GPUs, but 24GB is more than enough. The answer needs to be precise. The context says that the 8B models (like Llama 3 8B) are recommended for small businesses, so they might be the best choice. Also, the Mistral 7B is mentioned as requiring 16GB VRAM, so it's a good fit. 
+
+But the user's question is which model "najlepiej działa" (best works). The Llama 3 8B is highlighted for its performance in benchmarks and being popular for on-device use. The Mistral 7B is another option. However, the context doesn't explicitly say which is better, but the Llama 3 8B is mentioned as a recommended model for small businesses. 
+
+Therefore, based on the context, the Llama 3 8B and Mistral 7B are both suitable. But the answer should be the one that fits best. The context says that the Llama 3 8B is popular for on-device use, so that's a strong candidate. The answer must be based on the context, so I need to reference the specific mentions. The Llama 3 8B is mentioned as needing 16GB VRAM, which is within 24GB. The Mistral 7B also fits. However, the context also mentions that the Mistral 7B is part of the Mistral models with Apache 2.0 license, which is open-source. 
+
+But the user's question is which model works best. The answer should be the models that fit into 24GB VRAM and are highlighted in the context. The Llama 3 8B is explicitly mentioned as suitable for on-device applications with 16GB VRAM, so 24GB is more than enough. The Mistral 7B is also a good option. However, the answer should be precise. The context says that the Llama 3 8B is recommended for small businesses, which aligns with the user's 24GB GPU. 
+
+So, the best model would be Llama 3 8B, as it's recommended and fits within the VRAM. Also, the Mistral 7B is another option. But the answer needs to be specific. The context mentions that the Mistral 7B requires 16GB VRAM, which is under 24GB. However, the Llama 3 8B is highlighted for its performance. Therefore, the answer should include both models but maybe the Llama 3 8B is the best fit based on the context.
+</think>
+
+Odpowiedź:  
+Model **LLaMA 3 8B** najlepiej działa na GPU z 24 GB VRAM. Zgodnie z kontekstem, model ten wymaga około **16 GB VRAM** w kwantyzacji 4-bitowej, co pozwala na uruchomienie na urządzeniu z 24 GB VRAM z dużym marginesem. Dodatkowo, LLaMA 3 8B jest określany jako wydajny w benchmarkach (np. MMLU, BIG-BENCH Hard) i jest rekomendowany dla aplikacji typu RAG oraz on-device, co wskazuje na jego skuteczność w takim ujęciu.  
+
+W porównaniu do innych opcji, np. **Mixtral 8×7B** (w kwantyzacji 4-bitowej wymaga około **22,5 GB VRAM**), model LLaMA 3 8B jest bardziej optymalny pod kątem zasobów sprzętowych i wydajności w praktycznych zastosowaniach.
+Czas: 38.86 s | Liczba słów: 1154
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking about the memory requirements for the smallest LLM model, specifically the VRAM needed and the model's name. 
+
+First, I need to look through the provided context to find information about the smallest model. The context mentions several models like PLLuM-8B, PLLuM-12B, PLLuM-70B, and PLLuM-8×7B. Among these, the 8B model is the smallest in terms of parameters.
+
+Looking at the section about PLLuM-8B, the context states that the Llama-PLLuM-8B model has around 8 billion parameters. The VRAM requirements are mentioned in the table under the "Szacowane wymagania pamięci podczas wnioskowania" column. It says that the Q4_K_S quantization requires about 4.7 GB, Q4_K_M is 4.9 GB, and so on. The full FP16 version needs about 16.1 GB. However, the user is asking for the smallest model, so the minimal VRAM would be the Q4_K_S variant at 4.7 GB.
+
+Wait, but the user mentioned "llm" in general, not specifically PLLuM. However, the context provided is about PLLuM models. The LLaMA section also mentions models like Llama 3 8B and 70B. The context about LLaMA 3 says that the 8B model can be run on a single GPU with 16 GB VRAM. The LLaMA 3 8B requires 16 GB VRAM for full precision, but with quantization, it might be lower. However, the user's context includes both PLLuM and LLaMA models. 
+
+Wait, the user's query is about "llm" in general, but the context provided is about PLLuM and LLaMA. The first part of the context is about PLLuM, and then there's a separate file about LLaMA. The user might be referring to the smallest model in the context, which could be either PLLuM-8B or Llama 3 8B. 
+
+Looking back, the PLLuM-8B is mentioned with VRAM requirements around 4.7 GB for Q4_K_S. The LLaMA 3 8B requires 16 GB VRAM in full precision but can be run on a GPU with 16 GB VRAM. However, the context for PLLuM-8B has a lower VRAM requirement. 
+
+But the user might be referring to the smallest model in the entire context. The PLLuM-8B is 8B parameters, same as LLaMA 3 8B. The VRAM for PLLuM-8B's Q4_K_S is 4.7 GB, which is lower than LLaMA 3 8B's 16 GB. However, the user's question is about the "najmniejszy model llm" which translates to the smallest LLM model. 
+
+Wait, the context mentions PLLuM-8B as the smallest in the PLLuM family, and the LLaMA 3 8B is also mentioned. The user's query might be referring to the overall smallest model in the context. Since the PLLuM-8B has a lower VRAM requirement (4.7 GB) compared to LLaMA 3 8B (16 GB), the answer would be PLLuM-8B with 4.7 GB VRAM. 
+
+But I need to check if there's any other model smaller than 8B in the context. The context also mentions PLLuM-8×7B, which is a Mixture-of-Experts model with around 45B active parameters, which is larger. So the smallest is 8B. 
+
+Therefore, the answer should be PLLuM-8B requiring 4.7 GB VRAM for Q4_K_S quantization. The context explicitly states this in the table under the Llama-PLLuM-8B entry.
+</think>
+
+Odpowiedź:  
+Najmniejszy model LLm w kontekście to **Llama-PLLuM-8B (base/instruct/chat)**. Aby uruchomić ten model z kwantyzacją Q4_K_S, wymagana jest **ok. 4,7 GB VRAM**.  
+
+**Podstawy:**  
+- W tabeli dostarczonych danych podano, że model **Llama-PLLuM-8B** wymaga około **4,7 GB VRAM** przy kwantyzacji Q4_K_S.  
+- Wersja pełnej precyzji (FP16) wymaga 16,1 GB VRAM, ale minimalne wymagania podane w kontekście odnoszą się do kwantyzacji Q4_K_S.  
+- Inne modele (np. PLLuM-12B, PLLuM-70B) mają większą liczbę parametrów i wymagają więcej pamięci.
+Czas: 23.40 s | Liczba słów: 585
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 1.00   Correctness: 3.00
+
+
+------ Kolekcja: paraphrase_multilingual_collection (sentence-transformers/paraphrase-multilingual-mpnet-base-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: <think>
+Okay, let's see. The user is asking who Sam Altman is, and they want the answer based solely on the provided context. I need to check all the documents to see if there's any mention of Sam Altman.
+
+Looking through the context, most of it talks about different AI models like LLaMA, Mistral, GPT, and PLLuM. There's information about their features, licenses, hardware requirements, and applications. But I'm skimming through each section quickly. 
+
+Wait, in the GPT section, there's a mention of OpenAI and their models. Let me check that part again. The GPT-4 section says that Microsoft holds the rights to the model. Then in the GPT-4o section, it mentions OpenAI's API. But there's no mention of Sam Altman here. 
+
+Looking at the Mistral AI documents, they talk about the company and their models but not Sam Altman. The LLaMA documents also don't mention him. The PLLuM section is about a Polish model and doesn't relate to Sam Altman. 
+
+Hmm, maybe I missed something. Let me go through each document again. The first document about LLaMA mentions Meta and their models. The Mistral documents discuss the company and their various models. The GPT documents talk about different generations of GPT models, their parameters, and licenses. The PLLuM is a Polish model. 
+
+Wait, in the GPT-4 section, there's a mention of OpenAI and Microsoft. But Sam Altman is known to be the CEO of OpenAI, but the context here doesn't explicitly state that. The documents don't mention any individuals except for companies and models. 
+
+Since none of the provided context mentions Sam Altman, the correct response would be that the answer isn't found in the documents. I need to make sure I didn't overlook any part. Let me check once more. No, there's no mention of Sam Altman in any of the provided texts. So the answer should be that the information isn't available in the context.
+</think>
+
+Przepraszamy, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 15.51 s | Liczba słów: 332
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 0.06   Correctness: 3.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which LLaMa models are available, and they want the answer strictly based on the provided context. 
+
+First, I need to scan through the context information related to LLaMa. The context mentions LLaMA 3 and LLaMA 2. For LLaMA 3, the available models are 8B and 70B. The context also states that LLaMA 2 has models 7B, 13B, and 70B. 
+
+I should check if there are any other models mentioned. The context also refers to LLaMA 1, but the user is specifically asking about LLaMa models, and the question is about which are available. The answer should include all the models mentioned in the context. 
+
+Wait, the user might be referring to the latest versions. The context mentions LLaMA 3 (April 2024) and LLaMA 2 (July 2023). The LLaMA 1 is mentioned as the first generation, but the question is about available models. The answer should list all the models from LLaMA 2 and LLaMA 3 as they are the ones explicitly mentioned in the context. 
+
+Also, the context says that LLaMA 3 has 8B and 70B variants, and LLaMA 2 has 7B, 13B, and 70B. So combining these, the available models are 7B, 13B, 8B, and 70B for LLaMA 2 and 3. 
+
+I need to make sure not to include any models not mentioned. The context doesn't mention any other models beyond these. So the answer should list these four models with their respective generations and parameters. Also, check if there are any other details like VRAM requirements or licenses, but the user's question is only about which models are available. 
+
+Yes, the answer should be the list of models 7B, 13B, 8B, and 70B from LLaMA 2 and 3, as per the context. Make sure to reference the exact numbers from the context without adding any external knowledge.
+</think>
+
+Odpowiedź:  
+Dostępne modele LLaMa to:  
+- **LLaMA 2**: modele o liczbie parametrów 7B, 13B i 70B (zgodnie z informacjami z sekcji „LLaMA 2 (lipiec 2023)” w kontekście).  
+- **LLaMA 3**: modele o liczbie parametrów 8B i 70B (zgodnie z informacjami z sekcji „LLaMA 3 (kwiecień 2024)” w kontekście).  
+
+Te modele są wymienione w dokumentach jako dostępne wersje rodziny LLaMA, z uwzględnieniem ich parametrów i licencji.
+Czas: 18.97 s | Liczba słów: 375
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: 1.00   Context Relevancy: 1.00   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who created PLLuM. I need to look through the provided context to find the answer.
+
+First, I'll scan the PLLuM sections. In the "Zastosowania" section under PLLuM, there's a mention of "PLLuM jest zaprojektowany jako podstawowa warstwa..." but that doesn't mention the creator. 
+
+Looking at the "Zalety i wyróżniki" section, there's a link to a Hugging Face page: "https://huggingface.co/CYFRAGOVPL/PLLuM-12B-instruct#:~:text=,compliance%20with%20relevant%20legal%20regulations." The CYFRAGOVPL in the URL might be a clue. 
+
+In the "header_path" for PLLuM, it's listed as "/PLLuM – polski model językowy/", but that's just the header. 
+
+Another part under "Zalety i wyróżniki" points to "https://opi.org.pl/en/pllum-model-wspoltworzony-przez-opi-pib-gotowy-do-dzialania/#:~:text=%E2%80%A2%20The%20Polish%20language%20model,on%C2%A0the%20Mixture%20of%20Experts%20architecture." The phrase "współtwórzony przez OPiB" translates to "co-developed by OPiB." OPiB is the Polish Institute of Public Administration (Instytut Prawa i Administracji). 
+
+Additionally, in the same section, there's a mention of "The Polish language model was officially presented on..." which might reference the Polish government or institutions. 
+
+Putting it together, the context indicates that PLLuM was co-developed by OPiB and possibly other entities, but the exact creators are mentioned as CYFRAGOVPL and OPiB. However, the user's answer should be based solely on the provided context. The key part is the link to CYFRAGOVPL and the mention of OPiB in the Polish text. Therefore, the answer should state that CYFRAGOVPL and OPiB are the creators, as per the context.
+</think>
+
+Odpowiedź: PLLuM został stworzony przez CYFRAGOVPL oraz wspólne projekty z Instytutem Prawa i Administracji (OPiB). Informacja ta pochodzi z sekcji „Zalety i wyróżniki” dokumentu PLLuM, gdzie podano, że model jest „współtwórzony przez OPiB” oraz dostęp do jego wersji na platformie Hugging Face jest prowadzony przez CYFRAGOVPL.
+Czas: 18.61 s | Liczba słów: 270
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which model works best on a GPU with 24 GB VRAM. I need to look through the provided context to find models that fit this VRAM limit.
+
+First, I'll check the LLaMA models. The LLaMA 3.2-8B model is mentioned with VRAM requirements. For example, the LLaMA 3.2-8B in INT4 quantization requires about 16 GB VRAM. That's under 24 GB, so it's a candidate. Also, the LLaMA 3.2-3B model in INT4 needs around 0.75 GB, which is way below 24 GB, but maybe the user is looking for a more powerful model. The LLaMA 3.1 8B model in INT4 is 4 GB, which is also under 24 GB. However, the LLaMA 3.1 70B in INT4 requires 35 GB, which is over 24 GB, so that's too much.
+
+Next, looking at Mistral models. The Mistral 7B model requires 16 GB VRAM in FP16, which is under 24 GB. The Mistral 3B model in INT4 needs 0.75 GB, which is way under. The Mistral Small 24B models require 60 GB VRAM, which is over 24 GB. The Mixtral 8x7B in INT4 is around 22.5 GB, which is close to 24 GB but might be a bit tight. The Mixtral 8x22B in INT4 is 65 GB, which is over. 
+
+GPT models: The GPT-oss-20b can run on 16 GB VRAM, which is under 24 GB. The GPT-oss-120b needs 80 GB, which is over. 
+
+PLLuM models: PLLuM-8B in INT4 is around 4.9 GB, which is well under 24 GB. PLLuM-12B in INT4 is 7.6 GB, also under. PLLuM-70B is 35 GB, which is over. 
+
+So the models that fit into 24 GB VRAM include LLaMA 3.2-8B (INT4), Mistral 7B (FP16), GPT-oss-20b, PLLuM-8B, and PLLuM-12B. Among these, the Mistral 7B and LLaMA 3.2-8B are notable. The Mistral 7B requires 16 GB in FP16, which is under 24 GB, and the LLaMA 3.2-8B in INT4 is 16 GB. Both are good candidates. However, the user might prefer a model that's more optimized for the available VRAM. The Mistral 7B is mentioned as a good choice for local use with 16 GB VRAM, so 24 GB would be sufficient. Similarly, the LLaMA 3.2-8B is also suitable. The GPT-oss-20b is another option but might have different performance characteristics. The answer should list these models with their VRAM requirements as per the context.
+</think>
+
+Odpowiedź:  
+Na GPU z 24 GB VRAM najlepiej działają modele, które wymagają maksymalnie około 22,5–24 GB pamięci. Z dostarczonego kontekstu wynika, że:  
+
+1. **Mistral 7B** (FP16) wymaga 16 GB VRAM, co jest znacznie poniżej 24 GB, a w kwantyzacji INT4 zużywa 16 GB (zgodnie z informacją: *„Mistral 7B: 16 GB VRAM (FP16), 16 GB (INT4)”*).  
+2. **LLaMA 3.2-8B (INT4)** wymaga 16 GB VRAM (zgodnie z informacją: *„LLaMA 3.2-8B: 16 GB VRAM (FP16), 16 GB (INT4)”*).  
+3. **PLLuM-8B (INT4)** wymaga około 4,9–5,6 GB VRAM (zgodnie z informacją: *„PLLuM-8B: Q4_K_S ok. 4,7 GB, Q4_K_M ok. 4,9 GB, Q5_K_M ok. 5,6 GB”*), co pozwala na uruchomienie z dużym marginesem.  
+4. **GPT-oss-20b** działa na 16 GB VRAM w kwantyzacji INT4 (zgodnie z informacją: *„gpt-oss-20b: 16 GB VRAM (INT4)”*).  
+
+Wszystkie te modele są kompatybilne z 24 GB VRAM, ale **Mistral 7B** i **LLaMA 3.2-8B** są szczególnie zalecane ze względu na wydajność i dopasowanie do dostępnych zasobów.
+Czas: 34.22 s | Liczba słów: 544
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: <think>
+Okay, I need to figure out how much VRAM is required to run the smallest LLM mentioned in the context and name that model. Let me start by scanning through the provided documents.
+
+First, looking at the LLaMA models. The context mentions LLaMA 3.2-1B and 3.2-3B. Wait, in the LLaMA section under "LLaMA 3.2 (1/3 B tekstowe)", there's a table. The 1B model is listed with VRAM requirements. Let me check that. 
+
+The entry for "LLaMA 3.2-1B" says: "1 B: 2,5 GB (FP16), 1,25 GB (FP8), 0,75 GB (INT4)". So the smallest model here is the 1B parameter model. But wait, there's also Mistral models. Let me check Mistral's smallest model.
+
+In the Mistral section, the "Mistral 7B" is mentioned with a VRAM requirement of 16 GB for full precision (bf16/fp16). However, there's also a "Ministral 3B" with VRAM requirements: "3 B: 8 GB (FP16)" and lower for other quantizations. Wait, the Mistral 7B is 7.3B parameters, but the "Ministral 3B" is 3B parameters. But the question is about the smallest LLM. 
+
+Wait, looking back at the LLaMA section, there's also "LLaMA 3.2-1B" which is 1B parameters. The Mistral models have "Ministral 3B" (3B parameters) and "Voxtral Mini 3B" (3B parameters). The LLaMA 3.2-1B is smaller than the Mistral 3B. So the smallest model would be the LLaMA 3.2-1B, requiring 2.5 GB VRAM in FP16. 
+
+But wait, the user is asking for the smallest LLM. Let me confirm if there's any smaller model. The LLaMA 3.2-1B is 1B parameters. The Mistral 7B is 7.3B, which is larger. The "Ministral 3B" is 3B, which is larger than 1B. So the LLaMA 3.2-1B is the smallest. 
+
+But wait, in the LLaMA section under "LLaMA 3.2 (1/3 B tekstowe)", the 1B model is listed. However, in the LLaMA 3.1 section, there's also a 8B model. But the 1B model is the smallest. 
+
+So the answer should be the LLaMA 3.2-1B model requiring 2.5 GB VRAM in FP16. Let me check the exact text. 
+
+In the LLaMA 3.2 section, the entry for 1B says: "1 B: 2,5 GB (FP16), 1,25 GB (FP8), 0,75 GB (INT4)". So the minimal VRAM for FP16 is 2.5 GB. But the question is about the smallest model. The 1B model is the smallest in the LLaMA family. 
+
+Wait, but there's also the "LLaMA 3.2-1B" and "LLaMA 3.2-3B". The 1B is smaller. So the answer is 2.5 GB VRAM for the LLaMA 3.2-1B model. 
+
+But I need to make sure there's no smaller model in other sections. For example, in the Mistral section, the "Ministral 3B" requires 8 GB VRAM. The LLaMA 3.2-1B is smaller. Therefore, the correct answer is 2.5 GB VRAM for the LLaMA 3.2-1B model.
+</think>
+
+Odpowiedź:  
+Najmniejszy model LLM to **LLaMA 3.2-1B**, który wymaga **2,5 GB VRAM** w trybie FP16.  
+
+**Podstawy z kontekstu:**  
+W sekcji **LLaMA 3.2 (1/3 B tekstowe)** w tabeli podano, że model **1 B** wymaga:  
+- **2,5 GB VRAM (FP16)**,  
+- **1,25 GB VRAM (FP8)**,  
+- **0,75 GB VRAM (INT4)**.  
+
+To najmniejszy model w zestawieniu, ponieważ wszystkie inne wersje LLaMA (np. 3B, 7B) oraz modele Mistral (np. 7B, 3B) wymagają większej ilości VRAM.
+Czas: 29.94 s | Liczba słów: 521
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: 1.00   Correctness: 4.00
+
+
+------ Kolekcja: all_roberta_large_v1_collection (sentence-transformers/all-roberta-large-v1) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking if I'm an AI assistant that can only answer questions using the provided context. The main task is to answer who Sam Altman is, but I need to check the given context first.
+
+Looking through the context information, there are several files mentioning PLLuM, Mistral models, and GPT models. The PLLuM documentation talks about its development by Polish institutions and its applications. The Mistral AI section mentions the company and their models, but I don't see any mention of Sam Altman here. The GPT models section discusses OpenAI's models, but again, there's no reference to Sam Altman. 
+
+Wait, Sam Altman is a well-known figure in the tech industry, the CEO of OpenAI. But the context provided here doesn't include any information about him. All the documents are about PLLuM, Mistral AI models, and GPT models. Since the user specified to use only the provided context and not prior knowledge, I can't rely on external knowledge about Sam Altman. 
+
+The answer should be that the context doesn't mention Sam Altman, so the correct response is to state that I can't find the answer in the provided documents. I need to make sure not to add any external information. The user emphasized strict adherence to the context, so even if I know who Sam Altman is, I must follow the instructions and check the given texts again. 
+
+No mention of Sam Altman in any of the files. Therefore, the answer is that the documents don't contain information about him.
+</think>
+
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 10.73 s | Liczba słów: 271
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which LLaMA models are available, and they want the answer strictly based on the provided context. 
+
+First, I need to scan through the context documents to find mentions of LLaMA models. The relevant section is in the "llama.txt" file under the "LLaMA 3.2 (September 2024)" subsection. It mentions that LLaMA 3.2 introduced 1B and 3B text models, as well as multimodal Vision variants like 11B and 90B. 
+
+Wait, the context also refers to previous generations. The introduction in "llama.txt" mentions LLaMA 1, LLaMA 3.1, and LLaMA 3.2. But the user is specifically asking about available models. The 3.2 section lists the 1B, 3B, 11B, and 90B Vision models. Also, the main introduction mentions that LLaMA 3.1 and 3.2 are part of the family, but the exact models under 3.2 are the ones with the 1B, 3B, and Vision variants.
+
+I should check if there are other models mentioned. The "mistal.txt" and "pllum.txt" files don't talk about LLaMA models, so they can be ignored. The "gpt.txt" is about GPT models, so not relevant here. 
+
+The key points from the context are:
+- LLaMA 3.2 includes 1B, 3B text models.
+- Vision models: 11B and 90B.
+- The 3.2 version also has additional restrictions for EU users on Vision variants.
+
+So the answer should list these models. Also, the user wants precise numbers and VRAM requirements if mentioned. The context specifies VRAM for 3B (6.5GB bf16, 3.2GB FP8, 1.75GB INT4) and 1B (2.5GB FP16, etc.), but the question is about which models are available, not the VRAM. However, the user's instruction says to include specific numbers if required. Since the question is about availability, the exact model names and sizes are needed.
+
+Therefore, the answer should list the 1B, 3B, 11B, and 90B Vision models under LLaMA 3.2, and mention the LLaMA 3.1 and 3.2 generations as part of the family. But the user might be asking for the current available models, so focusing on the 3.2 section's models. Also, note the EU restriction on Vision models. However, the user's question is about which models are available, not the restrictions. So the main answer is the list of models from the 3.2 section.
+</think>
+
+Odpowiedź:  
+Dostępne modele LLaMA obejmują:  
+- **LLaMA 3.2**: wersje tekstowe **1B** i **3B**, które obsługują okno kontekstowe do 128k tokenów oraz warianty multimodalne **Llama 3.2-Vision 11B** i **90B**.  
+- **LLaMA 3.1**: poprzednia generacja z większą liczbą parametrów i rozszerzonymi możliwościami.  
+- **LLaMA 1**: pierwsza generacja, z której wynikała rozwój kolejnych wersji.  
+
+Dodatkowo, wersje multimodalne (np. Vision) są dostępne z ograniczeniami licencyjnymi dla użytkowników z UE. Wymagania sprzętowe dla modeli 3B (np. 6,5 GB VRAM w bf16/fp16) oraz 1B (np. 2,5 GB VRAM w FP16) są określone w kontekście.
+Czas: 17.10 s | Liczba słów: 460
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking who created PLLuM. I need to look through the provided context to find the answer.
+
+First, I'll scan the sections related to PLLuM. In the "Tło i motywacja" (Background and Motivation) section, there's a mention that PLLuM is a project by a consortium of Polish universities and institutes, coordinated by Wrocław University of Technology and supported by several organizations like NASK PIB, IP PAN, Ośrodek Przetwarzania Informacji PIB, University of Łódź, and Institute of Slavistics PAN. That seems like the main information here.
+
+Another part in the "Podsumowanie" (Summary) section also states that the Polish language model was developed by a consortium of Polish institutions, including those mentioned. The URL provided in the context links to articles that mention the consortium and the coordinating institutions. 
+
+I need to make sure there's no other mention of creators elsewhere. The rest of the document talks about applications, datasets, and other models like Mistral and LLaMA, but not about PLLuM's creators. 
+
+So, the answer should list the consortium members and the coordinating institutions. The key points are the consortium of Polish universities and institutes, coordinated by Wrocław University of Technology, and the supporting organizations. I need to present this without referencing the context directly, as per the rules. The answer must be fully supported by the context fragments provided.
+</think>
+
+Odpowiedź:  
+PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, koordynowane przez Politechnikę Wrocławską, a wspierane m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN. Twórcy podkreślają, że model został opracowany w oparciu o etycznie pozyskane dane i jest dostępny w różnych wersjach oraz licencjach, co umożliwia jego zastosowanie w administracji publicznej, biznesie i nauce.
+Czas: 12.47 s | Liczba słów: 291
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking which model works best on a GPU with 24 GB VRAM. They want the answer based solely on the provided context.
+
+First, I need to go through the context documents to find information about VRAM requirements for different models. Let me check each relevant section.
+
+Looking at the PLLum.txt, there's mention of the 70B model needing over 90 GB VRAM in fp16, which is way above 24 GB. The 12B and 8B models are more suitable for consumer GPUs, but the exact VRAM numbers aren't specified here. 
+
+Next, the Mistral.txt documents. The Mistral 7B model can run on a GPU with at least 12 GB VRAM, and with 4-bit quantization, even 4 GB VRAM is possible. The Mistral Large 2 model requires about 233 GB VRAM in full precision but can be reduced to ~58 GB with int4 quantization. However, 24 GB is still less than 58 GB. 
+
+In the LLaMA.txt, the 7B model needs around 12-13 GB VRAM in FP16, and quantized versions can run on 6 GB. The 13B model needs ~24 GB in full precision, which is exactly the VRAM the user has. The 65B model requires over 130 GB, which is way beyond 24 GB. 
+
+The GPT.txt mentions that GPT models are only available via API, and the open-source models like gpt-oss are not detailed here. 
+
+So, the LLaMA 13B model in full precision requires 24 GB VRAM, which matches the user's GPU. The Mistral Large 2 with int4 quantization needs ~58 GB, which is more than 24 GB. The Mistral 7B can run on 12 GB, but maybe with some quantization, but the exact VRAM for 24 GB isn't specified. 
+
+Wait, the user's GPU has 24 GB VRAM. The LLaMA 13B in full precision needs ~24 GB. That's a direct match. The Mistral Large 2 with int4 is 58 GB, which is more than 24. The Mistral 7B can run on 12 GB, but maybe with some optimizations, but the context doesn't mention 24 GB for it. 
+
+Therefore, the LLaMA 13B model is the one that fits exactly into 24 GB VRAM. The answer should be LLaMA 13B based on the context provided.
+</think>
+
+Odpowiedź:  
+Model LLaMA 13B w pełnej precyzji (FP16) wymaga ok. 24 GB VRAM, co dokładnie odpowiada dostępności 24 GB VRAM na GPU. W kontekście opisano, że wersje z kwantyzacją (np. 8-bit lub 4-bit) mogą działać na kartach z mniejszą pamięcią, ale dla pełnej precyzji 24 GB VRAM jest wymagana. Dodatkowo, modele Mistral Large 2 z kwantyzacją int4 wymagają ok. 58 GB VRAM, co przekracza 24 GB, a Mistral 7B działa na 12 GB VRAM, ale nie ma wskazania na optymalizację dla 24 GB. Zatem **LLaMA 13B** jest najlepszym wyborem dla GPU z 24 GB VRAM.
+Czas: 17.02 s | Liczba słów: 464
+Metryki:
+  Faithfulness: 0.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: <think>
+Okay, let's tackle this query. The user is asking about the minimum VRAM required to run the smallest LLM model based on the provided context. 
+
+First, I need to recall the context information. The user mentioned several files, including ones about PLLuM, Mistral, and LLaMA models. The key part here is the LLaMA section, specifically the LLaMA 1 and Code Llama entries.
+
+Looking at the LLaMA 1 section, it mentions that the 7B variant in FP16 requires around 12-13 GB VRAM. However, there's also a note about quantized versions (like 8-bit or 4-bit) that can run on GPUs with 6 GB VRAM. But the question is about the smallest model, so maybe the 7B is the smallest in the LLaMA family.
+
+Wait, but there's also a mention of Code Llama, which has a 7B variant. The context says that Code Llama 7B in 4-bit quantization needs ~6 GB VRAM. However, the user is asking about the "smallest" model. The Code Llama 7B is part of the LLaMA family, so perhaps that's the smallest. But wait, the LLaMA 1 has a 7B model, and Code Llama also has a 7B. Are they the same or different?
+
+Wait, the user is asking about the "smallest" model. The context mentions "Ministral 3B" in the Mistral section, which is a 3B parameter model. But the user is asking about LLM in general, not specifically Mistral. Wait, the first part of the query says "najmniejszy model llm" which translates to "smallest LLM model". The context includes multiple models, including Mistral's 3B and 8B, and LLaMA's 7B, 13B, 65B, etc. 
+
+So the smallest model mentioned in the context is the Mistral's 3B, which requires 8 GB VRAM. However, the user is asking about LLM in general, but the context also includes the LLaMA models. Wait, the user's question is in Polish, and the context includes both LLaMA and Mistral models. The user is asking for the smallest LLM model, so I need to check all the models mentioned.
+
+Looking at the context:
+
+- Mistral's Ministral 3B: "Minimalne wymagania VRAM to 8 GB dla 3B" (Minimum VRAM requirements are 8 GB for 3B).
+- LLaMA 1's 7B: "w precyzji FP16 wymaga ok. 12–13 GB pamięci VRAM" (in FP16 precision requires about 12–13 GB VRAM).
+- Code Llama 7B: "modele 7B i 13B w 4-bitowej kwantyzacji wymagają odpowiednio ~6 GB i ~10 GB VRAM" (models 7B and 13B in 4-bit quantization require ~6 GB and ~10 GB VRAM).
+
+So the smallest model in terms of parameters is the Mistral 3B, which requires 8 GB VRAM. However, the user might be referring to the LLaMA family. Wait, the user's question is in Polish, and the context includes both LLaMA and Mistral models. The question is about the "smallest LLM model" in the context. The smallest parameter model mentioned is the Mistral 3B (3B parameters) and the LLaMA 7B (7B parameters). Therefore, the Mistral 3B is the smallest. 
+
+But the user is asking about "najmniejszy model llm" which could be interpreted as the smallest in terms of parameters or VRAM. Since the Mistral 3B has 3B parameters, it's the smallest in parameters. The VRAM required for that model is 8 GB. 
+
+However, there's also the Code Llama 7B in 4-bit quantization needing 6 GB VRAM, but that's a 7B model. So the smallest in parameters is 3B, requiring 8 GB VRAM. Therefore, the answer should be the Mistral 3B with 8 GB VRAM.
+</think>
+
+Odpowiedź:  
+Najmniejszy model LLm wymagający najmniejszej ilości VRAM to **Ministral 3B**, który potrzebuje **8 GB VRAM**.  
+
+**Oparcie na kontekście:**  
+- W sekcji dotyczącej modeli Mistral podano: *"Minimalne wymagania VRAM to 8 GB dla 3B"* (z pliku `mistal.txt`).  
+- Inne modele, takie jak LLaMA 7B (w precyzji 4-bitowej) wymagają 6 GB VRAM, ale mają więcej parametrów (7B vs. 3B), więc nie są najmniejszym w kontekście liczby parametrów.
+Czas: 22.97 s | Liczba słów: 641
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+

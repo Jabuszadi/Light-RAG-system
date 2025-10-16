@@ -1,0 +1,178 @@
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Jego imię to Samuel Altman.
+2. Sam Altman jest założycielem OpenAI i prezesem tej firmy.
+Czas: 13.32 s | Liczba słów: 16
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Odpowiedź na to pytanie nie jest dostępna w dostarczonych fragmentach dokumentu.
+
+2. Przepraszam, nie mogę znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 10.08 s | Liczba słów: 24
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Odpowiedź na pytanie: Kim jest Sam Altman? 
+
+Nie można znaleźć odpowiedzi na to pytanie w dostarczonych fragmentach dokumentów.
+
+2. Twoja odpowiedź musi być w pełni poparta dostarczonymi fragmentami.
+W kontekście podanym informacje o Samie Altmanie nie są wstępnie przedstawione, więc nie jest to pytanie, które może być zanswerowane przy użyciu dostarczonych dokumentów.
+Czas: 9.17 s | Liczba słów: 53
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Odpowiedź: Sam Altman to amerykański biznesmen i inżynier komputerowy, który jest właównym wykonawcą OpenAI. 
+
+2. Odpowiedź: Nie jestem w stanie znaleźć informacji o samym Samie Altman w dostarczonych dokumentach.
+Czas: 9.27 s | Liczba słów: 30
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Odpowiedź na pytanie: Kim jest Sam Altman?
+Sam Altman jest CEO OpenAI.
+
+2. Twoja odpowiedź musi być w pełni poparta dostarczonymi fragmentami.
+Ponieważ pytanie nie zostało znalezione w dostarczonych dokumentach, odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+
+3. Twoja odpowiedź musi być w pełni poparta dostarczonymi fragmentami.
+Jednym z twórców modelu PLLuM jest Politechnika Wrocławska.
+
+4. Odpowiedź na pytanie: Co to jest PLLuM?
+PLLuM (Polish Large Language Model) to wszechstronna rodzina polskich modeli językowych, obejmująca warianty 8B, 12B, 70B oraz 8×7B.
+
+5. Odpowiedź na pytanie: Wymagane są 1000znaki VRAM?
+Wersja Voxtral Mini oferuje elastyczną kontrolę kosztów i szybkie wyszukiwanie w repozytoriach, semantyczne wyszukiwanie.
+Czas: 10.75 s | Liczba słów: 111
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Wersje **8 B** i **70 B** są dostępne w sierpniu 2025 r. 
+2. Wersja **8 B** Llama wypełnia około 16 GB pamięci VRAM, natomiast wariant **70 B** wymaga ponad 140 GB VRAM.
+Czas: 12.09 s | Liczba słów: 33
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Odpowiedź na pytanie: Jakie modele LLaMa są dostępne?
+
+Możliwe modely to **7 B**, **13 B** i **65 B**, a także warianty **Code Llama** z aktywnymi parametrami **7 B**, **13 B** lub **30/34 B**, a także **LLaMA 3**, **LLaMA 4 Scout** oraz **LLaMA 4 Maverick**.
+Czas: 10.60 s | Liczba słów: 45
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Odpowiedź na pytanie: Jakie modele LLaMa są dostępne?
+
+Dostępne modele LLaMA to **8 B**, **70 B** i Mixture‑of‑Experts 8×7B.
+Czas: 7.93 s | Liczba słów: 20
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Odpowiedź na pytanie: Jakie modele LLaMA są dostępne?
+
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 9.13 s | Liczba słów: 22
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Jesteszy modelem LLaMA **3.2**.
+2. Model LLaMA **3.2** (wrzesień 2024) jest drugą generacją w rodzinie LLaMA, a jego wersja multimodalna **Llama 3.2-Vision 11B** jest dostępna jedynie w Europie.
+3. Model LLaMA 3.2 wymaga około **6,5 GB VRAM** w formatach bf16/fp16, **3,2 GB** w FP8 i **1,75 GB** w INT4.
+Czas: 8.11 s | Liczba słów: 50
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM? 
+PLLuM to wszechstronna rodzina polskich modeli językowych, które zostały zaprojektowane przez konsorcjum polskich uczelni i instytutów.
+
+2. Wyjaśnienie: 
+W ramach konsorcjum pracowało 11 uczelni z całego kraju, a PLLuM jest produktem współpracy tego zespołu.
+Czas: 14.21 s | Liczba słów: 41
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź: PLLuM to **projekt konsorcjum polskich uczelni i instytutów**, który został **zakończony** (przez Ministerstwo Cyfryzacji) w **2025 roku** przez Politechnikę Wrocławską.
+2. Odpowiedź: Przykład wariantu PLLuM, który pozwala na korzystanie z **dostępnych modeli RAG**, to **PLLuM‑8B (base/instruct/chat)**, **PLLuM‑12B (base/instruct/chat)** i **PLLuM‑70B (base/instruct/chat)**.
+Czas: 10.58 s | Liczba słów: 43
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+Odpowiedź: Twórcy PLLuM to zespół polskich uczelni i instytutów, koordynowany przez Politechnikę Wrocławską i wspieranym m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 9.18 s | Liczba słów: 40
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. PLLuM został stworzony przez firmę OpenAI.
+2. Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 9.12 s | Liczba słów: 21
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: Odpowiedź:
+1. Płlum został zaprojektowany jako podstawowa warstwa dla wielu zastosowań w języku polskim, zbudowany przez konsorcjum polskich uczelni i instytutów, a jego twórcami są Politechnika Wrocławska i inni partnerowie.
+Czas: 7.63 s | Liczba słów: 30
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: timed out
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Oto odpowiedź na to pytanie: Model **Mistral Large** 2 wymaga około 233 GB VRAM we pełnej precyzji, a po kwantyzacji int4 (zamiennik 16-bitowy) - około 58 GB VRAM.
+Czas: 252.64 s | Liczba słów: 29
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź:
+1. Najmniejszym modelem LLaMA jest 7 B, który w pełnej precyzji (FP16) wymaga około **16 GB VRAM**.
+Czas: 12.99 s | Liczba słów: 18
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 1. Odpowiedź na pytanie: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę.
+Najmniejszym modelem llm jest **Code Llama**, który w 4-bitych kwantyzacji (GPTQ) wymaga ok. **6 GB** pamięci VRAM, natomiast wariant **1B** potrzebuje **2,5 GB VRAM** w precyzji FP16.
+
+2. Wartość: 6 GB
+Czas: 12.40 s | Liczba słów: 50
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 1. Odpowiedź na pytanie: Ile pamięci potrzeba, aby odpalić najmniejszy model **LLaMA 3**? Podaj ilość VRAM i podaj jego nazwę.
+
+W związku ze stanem wiedzy, który ma dostęp do informacji (stan na sierpień 2025 r.), informuje się, że **LLaMA 3 (8 B)** może być uruchomiony na sprzęcie konsumenckim z **16 GB VRAM**.
+Czas: 9.42 s | Liczba słów: 52
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź na to pytanie nie jest widoczna w dostarczonych fragmentach dokumentów. Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 11.07 s | Liczba słów: 24
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 1. Odpowiedź na pytanie: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę.
+Powyższe pytanie dotyczy **LLaMA 1**. Wariantem najmniejszym jest 7B. Minimalne wymagania VRAM to ok. 12–13 GB w precyzji FP16, natomiast wersje z kwantyzacją (np. 8-bit lub 4-bit) można uruchomić na kartach z 6 GB VRAM.
+2. Odpowiedź na pytanie: Ile pamięci potrzeba, aby odpalić największy model llm? Podaj ilość VRAM i podaj jego nazwę.
+Powyższe pytanie dotyczy **LLaMA 65B**. Największa wersja wymaga ponad 130 GB VRAM i zwykle wymaga wielu kart GPU.
+Czas: 11.19 s | Liczba słów: 91
+

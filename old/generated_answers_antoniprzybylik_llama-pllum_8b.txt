@@ -1,0 +1,150 @@
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 
+Czas: 0.00 s | Liczba słów: 0
+Błąd: llama runner process has terminated: exit status 2 (status code: 500)
+

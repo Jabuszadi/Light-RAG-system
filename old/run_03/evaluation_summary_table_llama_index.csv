@@ -1,0 +1,11 @@
+llm_model_name,embedding_model_name,avg_faithfulness,avg_answer_relevancy,avg_context_relevancy,avg_correctness,avg_time_elapsed,avg_generated_words,num_evaluated_questions
+glm4:9b,Qwen/Qwen3-Embedding-4B,1.0,1.0,,3.6,13.92325553894043,61.6,5
+glm4:9b,infly/inf-retriever-v1-1.5b,1.0,0.8333333333333334,0.625,3.5,12.677136278152465,79.6,5
+glm4:9b,sentence-transformers/all-MiniLM-L6-v2,1.0,1.0,,3.8,9.002890968322754,40.0,5
+glm4:9b,sentence-transformers/all-roberta-large-v1,1.0,0.6666666666666666,1.0,3.2,7.403561544418335,22.0,5
+glm4:9b,sentence-transformers/paraphrase-multilingual-mpnet-base-v2,1.0,0.8333333333333334,,3.2,10.643509817123412,19.8,5
+qwen3:8b,Qwen/Qwen3-Embedding-4B,0.8,1.0,0.5208333333333334,3.7,25.198403120040894,463.0,5
+qwen3:8b,infly/inf-retriever-v1-1.5b,0.8,0.875,0.421875,3.8,26.755171918869017,586.6,5
+qwen3:8b,sentence-transformers/all-MiniLM-L6-v2,0.4,1.0,0.875,3.4,21.957441139221192,577.6,5
+qwen3:8b,sentence-transformers/all-roberta-large-v1,1.0,1.0,0.3958333333333333,4.0,21.011874866485595,634.8,5
+qwen3:8b,sentence-transformers/paraphrase-multilingual-mpnet-base-v2,0.8,1.0,,3.8,31.087707376480104,711.2,5

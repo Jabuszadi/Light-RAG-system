@@ -1,0 +1,187 @@
+
+------ Kolekcja: qwen_embedding_collection (Qwen/Qwen3-Embedding-4B) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Sam Altman to założyciel i CEO OpenAI.
+2. Oto odpowiedź na pytanie: Kim jest Sam Altman? Jest to założyciel i CEO OpenAI, firmy zrównoważonego rozwoju, która zapewnia wejścia do modeli językowych GPT.
+
+Dalsze pytania nie mogą być odpowiedzie przez niektóre z przykładowych pytań
+ Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 11.26 s | Liczba słów: 57
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: Jednak nie mogę odpowiedzieć na to pytanie. Oto przyczyna:
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 11.31 s | Liczba słów: 22
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+Odpowiedź: Twórcy PLLuM to konsorcjum polskich uczelni i instytutów, koordynowany przez Politechnikę Wrocławską i wspieranym m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 11.55 s | Liczba słów: 40
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Wersja **LLaMA 3.2 (1/3 B tekstowe)** oraz **Pixtral Large** mogą działać na sprzęcie z 24 GB VRAM, ponieważ model **LLaMA 3.2** wymaga około 6,5 GB VRAM w precyzji FP16 i wariant **1 B** nie wymaga żadnej pamięci GPU, natomiast **Pixtral Large** wymaga około 124 GB VRAM.
+Czas: 14.39 s | Liczba słów: 47
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 1. Odpowiedź na to pytanie jest w pełni znaleziona w kontekście i wynosi około **4 GB VRAM**. Jest to model **Mistral 7B**, który ma minimalne wymagania pamięci.
+Czas: 12.77 s | Liczba słów: 27
+
+
+------ Kolekcja: infly_retriever_collection (infly/inf-retriever-v1-1.5b) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Odpowiedź na pytanie: Kim jest Sam Altman?
+
+Sam Altman to amerykański biznesmen i inżynier informatyczny. Jest założycielem OpenAI, firmy wypuszczonej przez niego, która tworzy modely językowe, w tym GPT-4, oraz dostarcza usługi AI do korporacji i instytucji publicznych.
+Czas: 10.74 s | Liczba słów: 38
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Oto odpowiedź na pytać o dostępne modele LLaMA: Modelami LLaMA, które są dostępne, są **LLaMA 1**, **LLaMA 2**, **LLaMA 3** oraz **LLaMA 4**.
+
+2. Wersje **LLaMA 1** są komercyjnie dostępne w wersji badawczej (niekomercyjnej), a wersje **LLaMA 2** i **LLaMA 3** mają licencję **Llama Community License**, która pozwala na komercyjne wykorzystanie, jednak nakłada obowiązek umieszczania informacji „Built with Llama” w produktach. Modele “nc” mają licencję CC‑BY‑NC‑4.0 i nie mogą być używane komercyjnie.
+Modelem **LLaMA 3** są **8 B**, **70 B** i **405 B**.
+
+ Dodatkowo **LLaMA 2** wprowadziła komercyjnie dostępne modele 7B, 13B i 70B.  Modele te zostały wytrenowane na dużo większym zbiorze danych i są licencjonowane na zasadach Llama Community License.
+ Dodatkowo **LLaMA 3.2** wprowadził modele tekstowe 1 B i 3 B, a model 70 B został połączony z modelem multimodalnym w wersji 90 B (Vision 11 B).
+ Modelem **LLaMA 4** są **Scout**, który ma 17 B aktywnych parametrów, oraz model **Maverick**, który ma 400 B całkowitych parametrów.
+ Model **LLaMA 4.0/Meta AI LLaMA 4)** ma wersję **Scout** z 17 B aktywnymi parametrami i wersję **Maverick** z 400 B całkowitymi paramtrami.
+Czas: 17.29 s | Liczba słów: 181
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+Odpowiedź: Politechnika Wrocławska i wspierające ją instytuty koordynują projekt PLLuM.
+Czas: 8.67 s | Liczba słów: 17
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Model **LLaMA 3.2** (1 B tekstowe) może być uruchomiony na sprzęcie z 24 GB VRAM, natomiast model **Llama-PLLuM-8B** wymaga 16 GB VRAM w pełnej precyzji fp16.
+2. Model **LLaMA 3.2 (1 B tekstowe)** ma minimalne wymagania pamięci: około 2,5 GB VRAM w pełnej precyzji fp16 przy kontekście 128 k tokenów. 
+3. Wersje modelu PLLuM: **PLLuM‑8×7B (base/instruct/chat)**, **PLLuM‑70B (base/instruct/chat)**
+4. Jest to model **Mixtral 8×7B**.
+5. Model **Llama-PLLuM-8B** ma minimalne wymagania pamięci: Q2\_K ~ 4,9 GB VRAM w pełnej precyzji fp16 przy kontekście około 32 k tokenów.
+Czas: 14.29 s | Liczba słów: 87
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź:
+Ile pamięci potrzeba, aby odpalić najmniejszy model LLM? Wystarcza ok. **4 GB VRAM** do uruchomienia modelu; w pełnej precyzji (bf16/fp16) wymagane jest znacznie więcej pamięci – te liczby podano w komentarzach.
+
+Następna pytania nie mogą być zgodzić z kontekstem.
+Czas: 11.70 s | Liczba słów: 40
+
+
+------ Kolekcja: all_minilm_collection (sentence-transformers/all-MiniLM-L6-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Odpowiedź na pytanie: Kim jest Sam Altman?
+Sam Altman to polityczny i biznesowy menadzer oraz fundator OpenAI, która pozwoliła na rozwój modeli AI, który jest w stanie odpowiadać na wiele pytań.
+Czas: 8.09 s | Liczba słów: 32
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: Odpowiedź na pytanie: Jakie modele LLaMa są dostępne?
+Wyłączane modele:
+
+1. **Llama-8B (base/instruct/chat)**
+2. **Llama-12B (base/instruct/chat)**
+3. **Llama-70B (base/instruct/chat)**
+4. Model Mixture-of-Experts 8×7B (około 45 mld aktywnych parametrów), nazwany LLaMA 8×7B
+Czas: 8.79 s | Liczba słów: 31
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+Odpowiedź: Twórcy polskich uczelni i instytutów koordynowani przez Politechnikę Wrocławską i wspieranego m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki.
+
+2. Twoja odpowiedź musi być w pełni poparta dostarczonymi fragmentami.
+Dostarczone fragmenty dokumentów nie mencjonują osób lub organizacji odpowiedzialnych za stworzenie PLLuM, chyba że dotyczą zespołu badawczego.
+Czas: 9.87 s | Liczba słów: 60
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Odpowiedź na pytanie: Jaki model najlepiej działa na GPU z 24 GB VRAM? Jest to **Voxtral Mini**. 
+
+2. Odpowiedź: Jest to model **Voxtral Mini**, który jest kompaktowym modelem audio, wykorzystającym tylko 8 GB RAM i w pełni spełniając warunki uruchomienia na karcie konsumenckiej z 16 GB VRAM.
+Czas: 9.46 s | Liczba słów: 48
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 1. Odpowiedź na pytanie: Ile pamięci potrzeba, aby odpalić najmniejszy model LLM?
+Pamięć: Pojedyncza karta GPU RTX 4090 z 24 GB VRAM.
+Model: **LLaMA 3** (8 B)
+2. Twoja odpowiedź musi być w pełni poparta dostarczonymi fragmentami.
+W tym kontekście najmniejszym modelem LLM jest LLaMA 3 model o parametrach 8B. 
+Dokumenty zacytowane w kontekście: https://gradientflow.com/llama-4-what-you-need-to-know/# i https://liquidmetal.ai/casesAndBlogs/llama-three-comparison/.
+Czas: 10.01 s | Liczba słów: 57
+
+
+------ Kolekcja: paraphrase_multilingual_collection (sentence-transformers/paraphrase-multilingual-mpnet-base-v2) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Odpowiedź na pytanie: Kim jest Sam Altman?
+Sam Altman to amerykański biznesmen i inżynier, który jest prezesem firm Meta Platforms, Inc., a także zainicjował projecty LLaMA i PPLuM.
+
+2. Twoja odpowiedź musi być w pełni poparta dostarczonymi fragmentami.
+Sam Altman jest biznesmenem i inżynierem, który założył firmę Meta Platforms, Inc. i jest prezesem tej firmy. On jest również zainicjował projecty LLaMA i PPLuM.
+Czas: 10.32 s | Liczba słów: 64
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: Jestem w stanie odpowiadać na to pytanie. Oto odpowiedź:
+
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 8.94 s | Liczba słów: 22
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+2. Odpowiedź: PLLuM został stworzony przez team z Uniwersytetu Warszawskiego, a dokładna nazwa autora związku jest nieznana ze stanu informacji.
+Czas: 9.52 s | Liczba słów: 34
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Odpowiedź na pytanie: Jaki model najlepiej działa na GPU z 24 GB VRAM? 
+Model, który najlepiej działa na GPU z 24 GB VRAM, to **Llama 3.2‑Mini** (wersja 8 B) lub **PLLuM 12B base-instruct**.
+
+2. Twoja odpowiedź: 
+Aby dostąpić wdrożenia modelu LLaMA 3.1/4 na urządzeniu z 24 GB VRAM, należy wybrać model z niewielkimi parametrami (np. 8 B lub 12 B), który może być łatwo zainstalowany i dostępny w wersji podstawowej.
+
+3. Odpowiedź: 
+Dla skutecznego korzystania z modeli, należy wybrać model z niewielkimi parametrami (np. 8 B lub 12 B), który może być łatwo zainstalowany i dostępny w wersji podstawowej.
+
+4. Odpowiedź: 
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+
+5. Odpowiedź:
+* Model LLaMA 3.1/4, który może wykonać zadania w kontekście do 128k tokenów, może być wybierany do zastosowań RAG.
+* Inne modele, które mogą wykonywać te zadania: PLLuM 12B.
+* Model LLaMA 3.1/4 jest na najwyższym poziomie sprzętowego dostępności i dostępnego w wersji podstawowej.
+Czas: 19.03 s | Liczba słów: 161
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź:
+1. Najmniejszym modelem LLM jest **LLaMA 3.2 (1/3 B tekstowe)**, który wymaga minimalnej pamięci **3 B** w precyzji **4‑bitowej** (wymagana za kwantyzację), ale z powodu 4-bitowej kwantyzacji może działać nawet na 4 GB VRAM.
+Czas: 11.54 s | Liczba słów: 35
+
+
+------ Kolekcja: all_roberta_large_v1_collection (sentence-transformers/all-roberta-large-v1) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: 1. Odpowiedź na pytanie: Kim jest Sam Altman?
+
+Sam Altman to amerykański inżynier i wicedyrektor organizacji OpenAI, która rozwija modeli językowe.
+Czas: 6.73 s | Liczba słów: 21
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Odpowiedź na pytanie: Jakie modele LLaMA są dostępne?
+
+Na podstawie dostarczonych fragmentów dokumentów, modelem LLaMA, który jest dostępny do korzystania jest Llama 3.2 (wrzesień 2024).  Wersja ta pozwala na korzystanie z modelu multimodalnego **Llama 3.2‑Vision 11 B** i **90 B**, który obsługuje tekst i obraz; potrafią rozpoznawać diagramy, tabele i proste elementy wizualne, generując tekstową odpowiedź.
+
+2. Twoja odpowiedź musi być w pełni poparta dostarczonymi fragmentami.
+Zgodnie z dokumentem **Mistral AI** to: 
+* **Sprzęt** – artykuł Hugging Face podaje, że **model 3 B** wymaga **ok. 6,5 GB VRAM** w bf16/fp16, **3,2 GB** w FP8 i **1,75 GB** w INT4; 
+* **Licencja** – Llama 3.2 jest objęta tą samą licencją co LLaMA 3.1, z dodatkową klauzulą, że osoby lub firmy z siedzibą w UE nie mogą korzystać z wersji multimodalnych (Vision); 
+* **Zastosowania** – dzięki niewielkim rozmiarom modele 1 B i 3 B są przeznaczone do urządzeń mobilnych i wbudowanych.
+Czas: 11.86 s | Liczba słów: 150
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: 1. Odpowiedź na pytanie: Kto stworzył PLLuM?
+Odpowiedź: Politechnika Wrocławska i inwestycje innych instytucji.
+Czas: 6.84 s | Liczba słów: 14
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Odpowiedź na pytanie: Jaki model najlepiej działa na GPU z 24 GB VRAM? Wystarczy wskazać model, który wymaga minimalnej ilości pamięci, takiej jak **Mistral 7B**.
+Czas: 7.16 s | Liczba słów: 26
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź:
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 7.52 s | Liczba słów: 14
+

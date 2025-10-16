@@ -1,0 +1,74 @@
+
+------ Kolekcja: qwen_embedding_collection (Qwen/Qwen3-Embedding-4B) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 15.41 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Modele LLaMA dostępne w kontekście to:
+   - **LLaMA 1 (7/13/65 B)**: 7B, 13B, 65B gęste.
+   - **LLaMA 2 (7/13/70 B)**: 7B, 13B, 70B gęste.
+   - **Code Llama (7/13/30/34 B)**: 7B, 13B, 30B, 34B gęste.
+   - **LLaMA 3 (8 B)**: 8B gęste.
+   - **LLaMA 3 (70 B)**: 70B gęste.
+   - **LLaMA 3.1 (8/70/405 B)**: 8B, 70B, 405B gęste.
+   - **LLaMA 3.2 (1/3 B tekstowe)**: 1B, 3B gęste.
+   - **LLaMA 3.2-Vision (11 B/90 B)**: 11B, 90B multimodalne (tekst + obraz).
+   - **LLaMA 4 Scout (17 B aktywnych, 16 ekspertów)**: 17B aktywnych / 109B całkowitych (MoE).
+   - **LLaMA 4 Maverick (17 B aktywnych, 128 ekspertów)**: 17B aktywnych / 400B całkowitych.
+Czas: 16.52 s | Liczba słów: 108
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, koordynowane przez Politechnikę Wrocławską. Projekt wspierany jest przez m.in. NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 12.00 s | Liczba słów: 34
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Odpowiedź: Model **LLaMA 3 8B** najlepiej działa na GPU z 24 GB VRAM.
+
+2. Poparcie:
+   - W kontekście dokumentu o rodzinie modeli LLaMA (stan sierpień 2025 r.), czytamy, że model **LLaMA 3 8B** wymaga około 16 GB VRAM w pełnej precyzji (FP16) oraz 8 GB VRAM przy kwantyzacji INT4. Oznacza to, że model ten jest odpowiedni do uruchomienia na GPU z 24 GB VRAM.
+     - "Model **Llama 3 70B** w pełnej precyzji potrzebuje **ponad 140 GB VRAM**, a specjalne techniki kwantyzacji (np. 4-bit) pozwalają uruchomić go na pojedynczym GPU RTX 4090 (24 GB) kosztem wydajności." (file_path: C:\Users\G\Documents\GitHub\rag_project\docs\llama.txt, header_path: /Rodzina modeli LLaMA – przegląd i wymagania sprzętowe (stan na sierpień 2025 r.)/)
+     - "Model **LLaMA 3 8B** można uruchomić na sprzęcie konsumenckim z 16 GB VRAM." (file_path: C:\Users\G\Documents\GitHub\rag_project\docs\llama.txt, header_path: /Rodzina modeli LLaMA – przegląd i wymagania sprzętowe (stan na sierpień 2025 r.)/)
+Czas: 20.06 s | Liczba słów: 142
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Model o najmniejszych wymaganiach pamięci VRAM jest **LLaMA 3.2 (1 B)** i potrzebuje **2,5 GB VRAM** w precyzji FP16, **1,25 GB** w FP8 oraz **0,75 GB** w INT4.
+Czas: 14.22 s | Liczba słów: 28
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+
+------ Kolekcja: infly_retriever_collection (infly/inf-retriever-v1-1.5b) ------
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 10.78 s | Liczba słów: 13
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: N/A   Context Relevancy: N/A   Correctness: 4.00
+
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: **LLaMA 1**: 7B, 13B, 65B (parametry gęste)
+**LLaMA 2**: 7B, 13B, 70B (parametry gęste)
+**CodeLlama**: 7B, 13B, 30B, 34B (parametry gęste)
+**LLaMA 3**: 8B, 70B (parametry gęste)
+**LLaMA 3.1**: 8B, 70B, 405B (parametry gęste)
+**LLaMA 3.2**: 1B, 3B (tekstowe) oraz LLaMA 3.2-Vision 11B, 90B (multimodalne)
+**LLaMA 4 Scout**: 17B aktywnych, 16 ekspertów (architektura MoE)
+**LLaMA 4 Maverick**: 17B aktywnych, 128 ekspertów (architektura MoE)
+Czas: 13.50 s | Liczba słów: 63
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 5.00
+
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, które jest koordynowane przez Politechnikę Wrocławską. Projekt wspierany jest przez m.in. NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 10.11 s | Liczba słów: 36
+Metryki:
+  Faithfulness: 1.00   Answer Relevancy: 1.00   Context Relevancy: N/A   Correctness: 4.00
+

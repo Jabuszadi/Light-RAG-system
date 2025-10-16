@@ -1,0 +1,203 @@
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 17.13 s | Liczba słów: 13
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 9.75 s | Liczba słów: 13
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 7.56 s | Liczba słów: 13
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 8.60 s | Liczba słów: 13
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 1: Kim jest Sam Altman?
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 6.36 s | Liczba słów: 13
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Dostępne modele LLaMA to:
+   - **LLaMA 1 (7/13/65 B)**: 7B, 13B, 65B gęste.
+   - **LLaMA 2 (7/13/70 B)**: 7B, 13B, 70B gęste.
+   - **Code Llama (7/13/30/34 B)**: 7B, 13B, 30B, 34B gęste.
+   - **LLaMA 3 (8 B)**: 8B gęste.
+   - **LLaMA 3 (70 B)**: 70B gęste.
+   - **LLaMA 3.1 (8/70/405 B)**: 8B, 70B, 405B gęste.
+   - **LLaMA 3.2 (1/3 B tekstowe)**: 1B, 3B gęste.
+   - **LLaMA 3.2-Vision (11 B/90 B)**: 11B, 90B multimodalne (tekst + obraz).
+   - **LLaMA 4 Scout (17 B aktywnych, 16 ekspertów)**: 17B aktywnych, 109B całkowitych (MoE).
+   - **LLaMA 4 Maverick (17 B aktywnych, 128 ekspertów)**: 17B aktywnych, 400B całkowitych.
+Czas: 15.99 s | Liczba słów: 104
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Modele LLaMA dostępne w kontekście to:
+   - LLaMA 1 (7 B, 13 B, 65 B)
+   - LLaMA 2 (7 B, 13 B, 70 B)
+   - CodeLlama (7 B, 13 B, 30 B, 34 B)
+   - LLaMA 3 (8 B, 70 B, 405 B)
+   - LLaMA 3.1 (8 B, 70 B, 405 B)
+   - LLaMA 3.2 (1 B, 3 B tekstowe)
+   - LLaMA 3.2-Vision (11 B, 90 B multimodalne)
+   - LLaMA 4 Scout (17 B aktywnych, 16 ekspertów)
+   - LLaMA 4 Maverick (17 B aktywnych, 128 ekspertów)
+Czas: 12.11 s | Liczba słów: 87
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: LLaMA oferuje następujące modele:
+
+1. **LLaMA 3 (kwiecień 2024)**:
+   - **8 B**: Wprowadzono Grouped Query Attention (GQA) oraz nowy tokenizer, co poprawia przepływ kontekstu i obsługę dłuższych sekwencji.
+   - **70 B**: Zwiększone konteksty, wysoki poziom dokładności, odświeżony tokenizer i bardziej zróżnicowany zestaw danych (7 bln tokenów).
+
+6. Wprowadzenie do modeli Mistral:
+   - **Modele tekstowe, wielomodalne, matematyczne, kodowe i głosowe**: Udostępnia modele open-source oraz premier models dostępne wyłącznie poprzez API.
+Czas: 9.64 s | Liczba słów: 69
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Modele LLaMa dostępne to:
+   - **LLaMA 1**: Pierwsza generacja jako eksperymentalny model badawczy.
+   - **LLaMA 2** (lipiec 2023): Wprowadziła komercyjnie dostępne modele 7B, 13B i 70B.
+   - **LLaMA 3** (kwiecień 2024): Została zaprezentowana jako trzecia generacja z modelami 8B i 70B.
+Czas: 10.40 s | Liczba słów: 42
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 2: Jakie modele LLaMa są dostępne?
+Odpowiedź: 1. Modele LLaMa dostępne to:
+   - LLaMA 3.2 (wrzesień 2024): obejmuje lekkie modele 1 B i 3 B (tekstowe) oraz warianty multimodalne Llama 3.2-Vision 11 B i 90 B.
+   - Modele 3.2-Vision: obejmują wersje multimodalne, które obsługują tekst i obraz oraz potrafią rozpoznawać diagramy, tabele i proste elementy wizualne, generując tekstową odpowiedź.
+Czas: 7.82 s | Liczba słów: 52
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, koordynowanym przez Politechnikę Wrocławską i wspieranym m.in. przez NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 11.29 s | Liczba słów: 33
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM został stworzony przez konsorcjum polskich uczelni i instytutów, pod przewodnictwem Politechniki Wrocławskiej. Wspiera go kilka innych instytucji, w tym NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 9.36 s | Liczba słów: 36
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM (Polish Large Language Model) został stworzony przez konsorcjum polskich uczelni i instytutów, które jest koordynowane przez Politechnikę Wrocławską. Wspiera go również NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN.
+Czas: 8.64 s | Liczba słów: 38
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: PLLuM został wspólnie stworzony przez OPI (Office of Program Planning and International Affairs), PIB (Polish Information Bureau) oraz CYFRONET.
+Czas: 9.19 s | Liczba słów: 19
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 3: Kto stworzył PLLuM?
+Odpowiedź: Politechnika Wrocławska, NASK PIB, Instytut Podstaw Informatyki PAN, Ośrodek Przetwarzania Informacji PIB, Uniwersytet Łódzki oraz Instytut Slawistyki PAN stworzyły PLLuM.
+Czas: 7.05 s | Liczba słów: 20
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. **Mistral Small 24B** (wersje 3/3.1/3.2) - Wymagania VRAM wynoszą 60 GB, co oznacza, że model ten może działać na GPU z 24 GB VRAM, mimo że nie jest to idealne, ponieważ wymaga więcej pamięci niż małe modele.
+2. **Pixtral 12B** - Wymagania VRAM wynoszą 28 GB (bf16) / 16 GB (fp8), co czyni go bardziej odpowiednim do GPU z 24 GB VRAM.
+3. **Ministral 8B** - Wymagania VRAM wynoszą 24 GB, co jest idealne dla GPU z 24 GB VRAM.
+4. **Devstral Small 24B** - Wymagania VRAM wynoszą 60 GB, co oznacza, że może działać na GPU z 24 GB VRAM, mimo że nie jest to idealne.
+5. **Voxtral Mini 3B** - Wymagania VRAM wynoszą 8 GB, co czyni go odpowiednim do GPU z 24 GB VRAM, chociaż model ma mniejsze parametry.
+
+Najbardziej odpowiednimi modелями dla GPU z 24 GB VRAM są **Pixtral 12B** i **Ministral 8B**, ponieważ mają minimalne wymagania w zakresie pamięci VRAM.
+Czas: 18.86 s | Liczba słów: 156
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. **Model LLaMA 3 (8 B)**: W kontekście dokumentacji dotyczącej modeli LLaMA, model 8 B jest wymieniony jako model, który można uruchomić na sprzęcie konsumenckim z 16 GB VRAM (w przypadku precyzji Q4). Chociaż nie jest to dokładnie 24 GB VRAM, w porównaniu do innych modeli wymaga znacznie mniej pamięci i może być odpowiedni dla karty GPU z 24 GB VRAM.
+
+2. **Model Mistral 7B**: Z dokumentacji dotyczącej modeli Mistral wynika, że model 7B wymaga tylko 16 GB VRAM, co czyni go również odpowiednim do uruchomienia na kartach GPU o pojemności 24 GB VRAM.
+
+Podsumowując, modele LLaMA 3 (8 B) i Mistral 7B będą działać najlepiej na GPU z 24 GB VRAM.
+Czas: 13.81 s | Liczba słów: 112
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Model LLaMA 3 (70 B) jest najlepiej dopasowany do GPU z 24 GB VRAM. W kontekście dostarczonym fragmentem znajduje się informacja, że model Llama 3 70B wymaga co najmniej 48 GB VRAM w konfiguracji wielo-GPU, ale specjalne techniki kwantyzacji pozwalają uruchomić go na pojedynczym GPU RTX 4090 (24 GB) kosztem wydajności. Ponadto, model Llama 3 8B może działać na sprzęcie konsumenckim z 16 GB VRAM, co sugeruje, że jego wymagania są niższe niż 24 GB VRAM.
+
+2. W kontekście znajduje się również informacja o innych modelach i ich wymaganiami VRAM:
+   - Model Llama 3 8B: do uruchomienia w chmurze potrzeba GPU z co najmniej 16 GB VRAM oraz 16 GB RAM.
+   - Model LLaMA 3 70B (w pełnej precyzji): ponad 140 GB VRAM.
+   - Model PLLuM 12B: wersja Mistral Nemo 12B wymaga ok. 12 GB VRAM przy kontekście 16k, co jest poniżej 24 GB VRAM.
+   - Modele Mistral:
+     - Mistral 7B: 16 GB VRAM
+     - Mixtral 8×7B: 100 GB VRAM
+     - Mixtral 8×22B: 300 GB VRAM
+
+3. W związku z tym, model LLaMA 3 (70 B) jest najbardziej dopasowany do GPU z 24 GB VRAM, mimo że jego wymagania są nieco wyższe niż 24 GB VRAM.
+Czas: 14.37 s | Liczba słów: 197
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Modely, które najlepiej działają na GPU z 24 GB VRAM, to:
+   - **PLLuM-8B (base/instruct/chat)** – wymaga ok. 4,7 GB VRAM w kwantyzacji Q4_K_S, co jest niższe niż 24 GB.
+   - **PLLuM-12B (base/instruct/chat)** – wymaga ok. 12 GB VRAM przy kontekście 16k tokenów.
+   - **Ministral 8B** – wymaga 24 GB VRAM.
+   - **Devstral Small 24B** – wymaga 60 GB VRAM, co jest powyżej 24 GB, ale model ten jest bardziej zaawansowany i może wymagać więcej zasobów.
+
+2. Odpowiedź:
+   - PLLuM-8B (base/instruct/chat) – 4,7 GB VRAM.
+   - PLLuM-12B (base/instruct/chat) – 12 GB VRAM.
+   - Ministral 8B – 24 GB VRAM.
+   - Devstral Small 24B – 60 GB VRAM.
+Czas: 16.75 s | Liczba słów: 107
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 4: Jaki model najlepiej działa na GPU z 24 GB VRAM?
+Odpowiedź: 1. Modelem najlepiej działającym na GPU z 24 GB VRAM mogą być modele LLaMA 8B lub 3B oraz Mistral 7B. W kontekście dostarczonym我们发现以下信息：
+
+- **LLaMA 8B**: "Modele 8 B (LLaMA 3) lub 3 B (LLaMA 3.2), które zapewniają dobrą jakość i niskie opóźnienia."
+- **LLaMA 3B**: "Modele 3 B (LLaMA 3.2), które zapewniają dobrą jakość i niskie opóźnienia."
+- **Mistral 7B**: "Zmiana na 16-bit (bf16) wymaga ok. 16 GB VRAM."
+
+Podkreślmy, że te modele wymagają mniej niż 24 GB VRAM, co czyni je odpowiednimi do GPU z taką ilością pamięci.
+Czas: 9.29 s | Liczba słów: 90
+
+----- Kolekcja: qwen_embedding_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Najmniejszy model LLaMA, który można odpalić, to **LLaMA 1 (7B)**. Wymaga on około **12–13 GB VRAM** w precyzji FP16.
+
+Podstawę tej odpowiedzi stanowi fragment z dokumentu dotyczącego LLaMA 1:
+"Obejmuje warianty **7 B**, **13 B** i **65 B** parametrów. Modele te obsługują kontekst ok. 2 k tokenów i były udostępnione wyłącznie na zasadach badawczych.
+* **Liczba parametrów i sprzęt** – wariant 7 B w precyzji FP16 wymaga ok. 12–13 GB pamięci VRAM..."
+
+Zatem:
+Answer: 12–13 GB VRAM; LLaMA 1 (7B)
+Czas: 16.09 s | Liczba słów: 80
+
+----- Kolekcja: infly_retriever_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: 6 GB VRAM, najmniejszy model LLaMA to LLama 2 7B.
+Czas: 10.94 s | Liczba słów: 10
+
+----- Kolekcja: all_minilm_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 7.64 s | Liczba słów: 13
+
+----- Kolekcja: paraphrase_multilingual_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Ministral 3B
+
+Przepraszam, nie jestem w stanie znaleźć odpowiedzi na to pytanie w dostarczonych dokumentach.
+Czas: 11.19 s | Liczba słów: 15
+
+----- Kolekcja: all_roberta_large_v1_collection -----
+Pytanie 5: Ile pamięci potrzeba, aby odpalić najmniejszy model llm? Podaj ilość VRAM i podaj jego nazwę
+Odpowiedź: Odpowiedź:
+6 GB VRAM, model LLaMA 1 (2023) w wersji 7 B.
+Czas: 7.61 s | Liczba słów: 12
+
