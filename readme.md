@@ -89,7 +89,7 @@ sentence-transformers/all-roberta-large-v1
 - "gpt-oss:20b",
 - "gemma3:27b"
 
-##Obserwacje
+## Obserwacje
 Po przeprowadzeniu wstępnych testów, większośc wyżej zaprezentowanych modeli nie spełniło oczekiwań albo 
 małe modele ignorowały polecenie trzymania sie danych zamieszczonych w folderze docs 
 (Najlepiej widoczne w przypadku dodanego zapytania "Kim jest Sam Altman?") albo modele nie udzielały żadnej 
@@ -105,7 +105,7 @@ stabilność odpowiedzi i działania (wyniki w folderze: "evaluation_results_rep
 GLM4:9b, okazał się nie być tak stabilny jak Qwen3:8b. Więc pozostał na arenie jedynie ten model. 
 Na tym testy zostały zakończone. 
 
-##Wnioski
+## Wnioski
 Qwen3:8b okazał się najlpesyzm modelem ze względu na równowagę między wydajnością, stabilnością 
 i zdolnością do podążania za instrukcjami. 
 
