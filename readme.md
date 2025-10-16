@@ -39,7 +39,7 @@ Tworzy katalog `evaluation_results_repetitive/`, a w nim podkatalogi `run_01`, `
 ```bash
 python repetitive_evaluate.py
 ```
-```
+
 
 ## Struktura Projektu
 -   `chat.py`: Skrypt do interaktywnego czatu RAG. Umożliwia zadawanie pytań i otrzymywanie odpowiedzi wzbogaconych o informacje z bazy wiedzy.
